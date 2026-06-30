@@ -1,32 +1,28 @@
-import { Navigation } from './components/Navigation'
-import { Hero } from './components/Hero'
-import { ClientMarquee } from './components/ClientMarquee'
-import { ServicesGrid } from './components/ServicesGrid'
-import { StatsBand } from './components/StatsBand'
-import { ProcessSection } from './components/ProcessSection'
-import { Testimonials } from './components/Testimonials'
-import { AboutSection } from './components/AboutSection'
-import { CTABanner } from './components/CTABanner'
-import { Contact } from './components/Contact'
-import { Footer } from './components/Footer'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { PageShell } from './components/PageShell'
+import { ScrollToTop } from './components/ScrollToTop'
+import { HomePage } from './pages/HomePage'
+import { ServicesPage } from './pages/ServicesPage'
+import { ProcessPage } from './pages/ProcessPage'
+import { StoriesPage } from './pages/StoriesPage'
+import { AboutPage } from './pages/AboutPage'
+import { ContactPage } from './pages/ContactPage'
 
 function App() {
   return (
-    <>
-      <Navigation />
-      <main>
-        <Hero />
-        <ClientMarquee />
-        <ServicesGrid />
-        <StatsBand />
-        <ProcessSection />
-        <Testimonials />
-        <AboutSection />
-        <CTABanner />
-        <Contact />
-      </main>
-      <Footer />
-    </>
+    <BrowserRouter>
+      <ScrollToTop />
+      <PageShell>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/services" element={<ServicesPage />} />
+          <Route path="/process" element={<ProcessPage />} />
+          <Route path="/stories" element={<StoriesPage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+        </Routes>
+      </PageShell>
+    </BrowserRouter>
   )
 }
 

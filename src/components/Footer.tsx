@@ -56,7 +56,7 @@ export function Footer() {
               {serviceLinks.map((link) => (
                 <li key={link}>
                   <a
-                    href="#services"
+                    href="/services"
                     className="text-sm text-white/60 transition-colors hover:text-gold"
                   >
                     {link}
@@ -76,14 +76,14 @@ export function Footer() {
                   <a
                     href={
                       link === 'Contact'
-                        ? '#contact'
+                        ? '/contact'
                         : link === 'Our Process'
-                          ? '#process'
+                          ? '/process'
                           : link === 'Success Stories'
-                            ? '#testimonials'
+                            ? '/stories'
                             : link === 'About Us'
-                              ? '#about'
-                              : '#'
+                              ? '/about'
+                              : '/services'
                     }
                     className="text-sm text-white/60 transition-colors hover:text-gold"
                   >

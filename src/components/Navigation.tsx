@@ -1,18 +1,19 @@
 import { useState } from 'react'
+import { Link, useLocation } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'
 import { useScrollY } from '../hooks/useScrollY'
 
 const navLinks = [
-  { label: 'Services', href: '#services' },
-  { label: 'Our Process', href: '#process' },
-  { label: 'Success Stories', href: '#testimonials' },
-  { label: 'About', href: '#about' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Services', href: '/services' },
+  { label: 'Our Process', href: '/process' },
+  { label: 'Success Stories', href: '/stories' },
+  { label: 'About', href: '/about' },
+  { label: 'Contact', href: '/contact' },
 ]
 
 function Logo({ light = false }: { light?: boolean }) {
   return (
-    <a href="#" className="flex items-center gap-2.5">
+    <Link to="/" className="flex items-center gap-2.5">
       <svg
         width="14"
         height="14"
@@ -27,15 +28,18 @@ function Logo({ light = false }: { light?: boolean }) {
       >
         Bridgelink<span className="text-gold">.</span>
       </span>
-    </a>
+    </Link>
   )
 }
 
 export function Navigation() {
   const scrolled = useScrollY(50)
   const [mobileOpen, setMobileOpen] = useState(false)
+  const location = useLocation()
+  const isHome = location.pathname === '/'
+  const isOpaque = scrolled || !isHome
 
-  const navClass = scrolled
+  const navClass = isOpaque
     ? 'bg-white/95 border-b border-border text-navy shadow-sm'
     : 'bg-transparent text-white border-b border-transparent'
 
@@ -47,27 +51,30 @@ export function Navigation() {
         <Logo light={!scrolled} />
 
         <ul className="hidden items-center gap-8 lg:flex">
-          {navLinks.map((link) => (
-            <li key={link.href}>
-              <a
-                href={link.href}
-                className={`text-sm font-medium transition-colors hover:text-gold ${scrolled ? 'text-navy' : 'text-white/80'}`}
-              >
-                {link.label}
-              </a>
-            </li>
-          ))}
+          {navLinks.map((link) => {
+            const isActive = location.pathname === link.href
+            return (
+              <li key={link.href}>
+                <Link
+                  to={link.href}
+                  className={`text-sm font-medium transition-colors hover:text-gold ${isOpaque ? 'text-navy' : 'text-white/80'} ${isActive ? 'text-gold' : ''}`}
+                >
+                  {link.label}
+                </Link>
+              </li>
+            )
+          })}
         </ul>
 
         <div className="hidden items-center gap-6 lg:flex">
-          <a
-            href="#contact"
-            className={`text-sm font-medium transition-colors hover:text-gold ${scrolled ? 'text-muted-text' : 'text-white/70'}`}
+          <Link
+            to="/contact"
+            className={`text-sm font-medium transition-colors hover:text-gold ${isOpaque ? 'text-muted-text' : 'text-white/70'}`}
           >
             Book a call
-          </a>
-          <a
-            href="#contact"
+          </Link>
+          <Link
+            to="/contact"
             className={`px-5 py-2.5 text-sm font-medium transition-colors ${
               scrolled
                 ? 'bg-navy text-white hover:bg-navy/90'
@@ -75,12 +82,12 @@ export function Navigation() {
             }`}
           >
             Get Started
-          </a>
+          </Link>
         </div>
 
         <button
           type="button"
-          className={`lg:hidden ${scrolled ? 'text-navy' : 'text-white'}`}
+          className={`lg:hidden ${isOpaque ? 'text-navy' : 'text-white'}`}
           onClick={() => setMobileOpen(!mobileOpen)}
           aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
         >
@@ -93,31 +100,31 @@ export function Navigation() {
           <ul className="flex flex-col gap-4">
             {navLinks.map((link) => (
               <li key={link.href}>
-                <a
-                  href={link.href}
-                  className="block text-sm font-medium text-navy hover:text-gold"
+                <Link
+                  to={link.href}
+                  className={`block text-sm font-medium ${location.pathname === link.href ? 'text-gold' : 'text-navy'} hover:text-gold`}
                   onClick={() => setMobileOpen(false)}
                 >
                   {link.label}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
           <div className="mt-6 flex flex-col gap-3 border-t border-border pt-6">
-            <a
-              href="#contact"
+            <Link
+              to="/contact"
               className="text-sm font-medium text-muted-text hover:text-gold"
               onClick={() => setMobileOpen(false)}
             >
               Book a call
-            </a>
-            <a
-              href="#contact"
+            </Link>
+            <Link
+              to="/contact"
               className="bg-navy px-5 py-2.5 text-center text-sm font-medium text-white"
               onClick={() => setMobileOpen(false)}
             >
               Get Started
-            </a>
+            </Link>
           </div>
         </div>
       )}

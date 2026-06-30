@@ -35,7 +35,7 @@ export function CTABanner() {
           you want to go next.
         </p>
         <a
-          href="#contact"
+          href="/contact"
           className="mt-10 inline-block bg-gold px-8 py-4 text-sm font-medium text-navy transition-colors hover:bg-gold/90"
         >
           Book Your Consultation

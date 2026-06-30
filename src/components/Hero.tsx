@@ -14,13 +14,13 @@ export function Hero() {
       <div className="absolute inset-x-0 top-0 h-px bg-gold" />
 
       <div
-        className="absolute inset-0 bg-cover bg-center opacity-20"
+        className="absolute inset-0 bg-cover bg-center opacity-30"
         style={{
           backgroundImage:
             'url(https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&h=1080&fit=crop&auto=format)',
         }}
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-navy via-navy/80 to-transparent" />
+      <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(13,31,74,0.95)_0%,rgba(13,31,74,0.82)_45%,rgba(13,31,74,0.65)_100%)]" />
 
       <div className="relative mx-auto flex w-full max-w-7xl flex-1 flex-col justify-center px-6 pb-24 pt-32 lg:px-8">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
@@ -33,20 +33,20 @@ export function Hero() {
               <br />
               right strategy.
             </h1>
-            <p className="mt-6 max-w-md text-base leading-relaxed text-white/60">
+            <p className="mt-6 max-w-md text-base leading-relaxed text-white/80">
               Bridgelink partners with senior professionals and rising executives
               to navigate career transitions with precision, discretion, and
               measurable outcomes.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <a
-                href="#contact"
+                href="/contact"
                 className="bg-gold px-7 py-3.5 text-sm font-medium text-navy transition-colors hover:bg-gold/90"
               >
                 Start Your Journey
               </a>
               <a
-                href="#services"
+                href="/services"
                 className="border border-white/30 px-7 py-3.5 text-sm font-medium text-white transition-colors hover:border-white/60 hover:bg-white/5"
               >
                 Explore Services
@@ -63,7 +63,7 @@ export function Hero() {
                 <p className="font-display text-3xl font-light text-white md:text-4xl">
                   {stat.value}
                 </p>
-                <p className="mt-2 text-xs uppercase tracking-widest text-white/50">
+                <p className="mt-2 text-xs uppercase tracking-widest text-white/70">
                   {stat.label}
                 </p>
               </div>
