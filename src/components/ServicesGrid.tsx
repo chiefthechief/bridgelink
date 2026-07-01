@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { AnimatedSection } from './AnimatedSection'
 import { SectionLabel } from './SectionLabel'
 import { useInView } from '../hooks/useInView'
@@ -81,9 +82,12 @@ function ServiceCard({
           </span>
         ))}
       </div>
-      <p className="mt-6 text-sm font-medium text-gold opacity-0 transition-opacity group-hover:opacity-100">
+      <Link
+        to={`/services/${service.slug}`}
+        className="mt-6 inline-flex text-sm font-medium text-gold transition-colors group-hover:text-navy"
+      >
         Learn more →
-      </p>
+      </Link>
     </div>
   )
 }

@@ -1,5 +1,4 @@
 import { Hero } from '../components/Hero'
-import { ClientMarquee } from '../components/ClientMarquee'
 import { ServicesGrid } from '../components/ServicesGrid'
 import { StatsBand } from '../components/StatsBand'
 import { ProcessSection } from '../components/ProcessSection'
@@ -12,7 +11,6 @@ export function HomePage() {
   return (
     <main>
       <Hero />
-      <ClientMarquee />
       <ServicesGrid />
       <StatsBand />
       <ProcessSection />

@@ -52,6 +52,12 @@ export function ServicesPage() {
                   </span>
                 ))}
               </div>
+              <Link
+                to={`/services/${service.slug}`}
+                className="mt-6 inline-flex text-sm font-medium text-gold transition-colors hover:text-navy"
+              >
+                Learn more →
+              </Link>
             </article>
           ))}
         </div>

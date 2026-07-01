@@ -75,15 +75,15 @@ export function Footer() {
                 <li key={link}>
                   <a
                     href={
-                      link === 'Contact'
-                        ? '/contact'
-                        : link === 'Our Process'
-                          ? '/process'
-                          : link === 'Success Stories'
-                            ? '/stories'
-                            : link === 'About Us'
-                              ? '/about'
-                              : '/services'
+                      link === "Contact"
+                        ? "/contact"
+                        : link === "Our Process"
+                          ? "/process"
+                          : link === "Success Stories"
+                            ? "/stories"
+                            : link === "About Us"
+                              ? "/about"
+                              : "/services"
                     }
                     className="text-sm text-white/60 transition-colors hover:text-gold"
                   >
@@ -99,9 +99,9 @@ export function Footer() {
               Contact
             </h3>
             <ul className="mt-4 space-y-3 text-sm text-white/60">
-              <li>+44 (0)20 7946 0958</li>
+              <li>+233 (0)24 499 4544</li>
               <li>partners@bridgelink.co.uk</li>
-              <li>30 St Mary Axe, London EC3A 8BF</li>
+              <li>GP, ACCRA - GHANA</li>
             </ul>
           </div>
         </div>
@@ -109,10 +109,15 @@ export function Footer() {
 
       <div className="border-t border-white/10">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 py-6 text-xs text-white/30 sm:flex-row lg:px-8">
-          <p>Bridgelink Career Consultancy Ltd. Registered in England & Wales No. 08472931</p>
-          <p>&copy; {new Date().getFullYear()} Bridgelink. All rights reserved.</p>
+          <p>
+            Bridgelink Career Consultancy Ltd. Registered in England & Wales No.
+            08472931
+          </p>
+          <p>
+            &copy; {new Date().getFullYear()} Bridgelink. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
-  )
+  );
 }

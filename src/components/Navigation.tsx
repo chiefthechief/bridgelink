@@ -48,7 +48,7 @@ export function Navigation() {
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${navClass}`}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-8">
-        <Logo light={!scrolled} />
+        <Logo light={isHome && !scrolled} />
 
         <ul className="hidden items-center gap-8 lg:flex">
           {navLinks.map((link) => {

@@ -6,8 +6,8 @@ const contactDetails = [
   {
     icon: Phone,
     label: 'Telephone',
-    value: '+44 (0)20 7946 0958',
-    href: 'tel:+442079460958',
+    value: '+233 (0)24 499 4544',
+    href: 'tel:+233244994544',
   },
   {
     icon: Mail,
@@ -18,7 +18,7 @@ const contactDetails = [
   {
     icon: MapPin,
     label: 'Office',
-    value: '30 St Mary Axe, London EC3A 8BF',
+    value: 'GP, ACCRA - GHANA',
     href: undefined,
   },
 ]

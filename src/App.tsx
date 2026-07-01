@@ -3,6 +3,7 @@ import { PageShell } from './components/PageShell'
 import { ScrollToTop } from './components/ScrollToTop'
 import { HomePage } from './pages/HomePage'
 import { ServicesPage } from './pages/ServicesPage'
+import { ServiceDetailPage } from './pages/ServiceDetailPage'
 import { ProcessPage } from './pages/ProcessPage'
 import { StoriesPage } from './pages/StoriesPage'
 import { AboutPage } from './pages/AboutPage'
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/services" element={<ServicesPage />} />
+          <Route path="/services/:slug" element={<ServiceDetailPage />} />
           <Route path="/process" element={<ProcessPage />} />
           <Route path="/stories" element={<StoriesPage />} />
           <Route path="/about" element={<AboutPage />} />
