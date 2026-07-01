@@ -2,51 +2,7 @@ import { Link } from 'react-router-dom'
 import { AnimatedSection } from './AnimatedSection'
 import { SectionLabel } from './SectionLabel'
 import { useInView } from '../hooks/useInView'
-
-const services = [
-  {
-    number: '01',
-    title: 'Career Consulting',
-    description:
-      'One-to-one advisory for professionals at inflection points — role changes, industry pivots, and long-term career architecture.',
-    tags: ['Strategy', 'Roadmapping', 'Advisory'],
-  },
-  {
-    number: '02',
-    title: 'Executive Placement',
-    description:
-      'Discreet access to board-level and C-suite opportunities through our network of 400+ partner organisations across finance and consulting.',
-    tags: ['C-Suite', 'Board Roles', 'Confidential'],
-  },
-  {
-    number: '03',
-    title: 'CV & Brand Development',
-    description:
-      'Positioning documents and personal brand narratives crafted for senior audiences — from executive summaries to LinkedIn authority.',
-    tags: ['Personal Brand', 'CV Writing', 'LinkedIn'],
-  },
-  {
-    number: '04',
-    title: 'Interview Mastery',
-    description:
-      'Structured preparation for panel interviews, case assessments, and competency frameworks used by top-tier employers.',
-    tags: ['Mock Interviews', 'Case Prep', 'Feedback'],
-  },
-  {
-    number: '05',
-    title: 'Salary Negotiation',
-    description:
-      'Evidence-based negotiation strategy to secure compensation packages that reflect your market value and scope of responsibility.',
-    tags: ['Compensation', 'Equity', 'Benefits'],
-  },
-  {
-    number: '06',
-    title: 'Graduate Transition',
-    description:
-      'Accelerated pathways for high-potential graduates entering competitive sectors — from application strategy to offer conversion.',
-    tags: ['Graduate Roles', 'Internships', 'Mentorship'],
-  },
-]
+import { services } from '../data/content'
 
 function ServiceCard({
   service,
