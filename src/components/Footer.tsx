@@ -1,3 +1,5 @@
+import logoWhite from '../assets/logo-white.jpeg'
+
 const serviceLinks = [
   'Career Consulting',
   'Executive Placement',
@@ -18,19 +20,8 @@ const companyLinks = [
 
 function FooterLogo() {
   return (
-    <a href="#" className="flex items-center gap-2.5">
-      <svg
-        width="14"
-        height="14"
-        viewBox="0 0 14 14"
-        fill="none"
-        aria-hidden="true"
-      >
-        <path d="M7 0L14 14H0L7 0Z" fill="#ffffff" />
-      </svg>
-      <span className="font-display text-lg font-light tracking-tight text-white">
-        Bridgelink<span className="text-gold">.</span>
-      </span>
+    <a href="#" className="flex items-center">
+      <img src={logoWhite} alt="Bridgelink logo" className="h-8 w-auto" />
     </a>
   )
 }

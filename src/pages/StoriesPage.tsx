@@ -29,7 +29,7 @@ export function StoriesPage() {
       <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-24">
         <div className="grid gap-6 lg:grid-cols-3">
           {stories.map((story) => (
-            <article key={story.title} className="border border-border bg-white p-8 shadow-[0_12px_40px_rgba(13,31,74,0.06)]">
+            <article key={story.title} className="border border-border bg-white p-8 shadow-[0_12px_40px_rgba(25,86,190,0.06)]">
               <h2 className="font-display text-2xl font-light text-navy">
                 {story.title}
               </h2>

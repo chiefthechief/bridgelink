@@ -31,7 +31,7 @@ export function ServicesPage() {
           {services.map((service) => (
             <article
               key={service.title}
-              className="border border-border bg-white p-8 shadow-[0_12px_40px_rgba(13,31,74,0.06)]"
+              className="border border-border bg-white p-8 shadow-[0_12px_40px_rgba(25,86,190,0.06)]"
             >
               <p className="font-display text-3xl font-light text-gold/60">
                 {service.number}

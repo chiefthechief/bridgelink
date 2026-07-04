@@ -50,7 +50,7 @@ export function ServiceDetailPage() {
 
       <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-24">
         <div className="grid gap-8 lg:grid-cols-[1.2fr_0.8fr]">
-          <div className="rounded-none border border-border bg-white p-8 shadow-[0_12px_40px_rgba(13,31,74,0.06)]">
+          <div className="rounded-none border border-border bg-white p-8 shadow-[0_12px_40px_rgba(25,86,190,0.06)]">
             <p className="font-display text-3xl font-light text-gold/60">{service.number}</p>
             <h2 className="mt-4 font-display text-2xl font-light text-navy">{service.title}</h2>
             <p className="mt-4 text-base leading-relaxed text-slate-700">{service.description}</p>

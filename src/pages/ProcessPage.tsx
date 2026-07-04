@@ -29,7 +29,7 @@ export function ProcessPage() {
       <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-24">
         <div className="grid gap-6 md:grid-cols-2">
           {processSteps.map((step, index) => (
-            <div key={step.title} className="border border-border bg-[#f8f9fc] p-8 shadow-[0_10px_30px_rgba(13,31,74,0.05)]">
+            <div key={step.title} className="border border-border bg-[#f8f9fc] p-8 shadow-[0_10px_30px_rgba(25,86,190,0.05)]">
               <p className="text-sm font-semibold uppercase tracking-[0.2em] text-gold">
                 Step 0{index + 1}
               </p>

@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'
+import logoBlue from '../assets/logo-blue.jpeg'
+import logoWhite from '../assets/logo-white.jpeg'
 import { useScrollY } from '../hooks/useScrollY'
 
 const navLinks = [
@@ -13,21 +15,12 @@ const navLinks = [
 
 function Logo({ light = false }: { light?: boolean }) {
   return (
-    <Link to="/" className="flex items-center gap-2.5">
-      <svg
-        width="14"
-        height="14"
-        viewBox="0 0 14 14"
-        fill="none"
-        aria-hidden="true"
-      >
-        <path d="M7 0L14 14H0L7 0Z" fill={light ? '#ffffff' : '#0D1F4A'} />
-      </svg>
-      <span
-        className={`font-display text-lg font-light tracking-tight ${light ? 'text-white' : 'text-navy'}`}
-      >
-        Bridgelink<span className="text-gold">.</span>
-      </span>
+    <Link to="/" className="flex items-center">
+      <img
+        src={light ? logoWhite : logoBlue}
+        alt="Bridgelink logo"
+        className="h-8 w-auto"
+      />
     </Link>
   )
 }

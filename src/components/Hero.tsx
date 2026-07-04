@@ -20,7 +20,7 @@ export function Hero() {
             'url(https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&h=1080&fit=crop&auto=format)',
         }}
       />
-      <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(13,31,74,0.95)_0%,rgba(13,31,74,0.82)_45%,rgba(13,31,74,0.65)_100%)]" />
+      <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(25,86,190,0.95)_0%,rgba(25,86,190,0.82)_45%,rgba(25,86,190,0.65)_100%)]" />
 
       <div className="relative mx-auto flex w-full max-w-7xl flex-1 flex-col justify-center px-6 pb-24 pt-32 lg:px-8">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">

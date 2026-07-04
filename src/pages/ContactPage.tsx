@@ -31,7 +31,7 @@ export function ContactPage() {
             </div>
           </div>
 
-          <div className="border border-border bg-white p-8 shadow-[0_12px_40px_rgba(13,31,74,0.06)]">
+          <div className="border border-border bg-white p-8 shadow-[0_12px_40px_rgba(25,86,190,0.06)]">
             <form className="space-y-5">
               <div className="grid gap-5 md:grid-cols-2">
                 <label className="text-sm text-slate-700">
