@@ -5,23 +5,23 @@ import { AnimatedSection } from './AnimatedSection'
 const contactDetails = [
   {
     icon: Phone,
-    label: 'Telephone',
-    value: '+233 (0)24 499 4544',
-    href: 'tel:+233244994544',
+    label: "Telephone",
+    value: "+44 20 7946 1824",
+    href: "tel:+442079461824",
   },
   {
     icon: Mail,
-    label: 'Email',
-    value: 'partners@bridgelink.co.uk',
-    href: 'mailto:partners@bridgelink.co.uk',
+    label: "Email",
+    value: "partners@bridgelink.co.uk",
+    href: "mailto:partners@bridgelink.co.uk",
   },
   {
     icon: MapPin,
-    label: 'Office',
-    value: 'GP, ACCRA - GHANA',
+    label: "Office",
+    value: "20 St James's Square, London SW1Y 4JH",
     href: undefined,
   },
-]
+];
 
 export function Contact() {
   const [submitted, setSubmitted] = useState(false)

@@ -1,29 +1,26 @@
 import logoWhite from '../assets/logo-white.jpeg'
 
 const serviceLinks = [
-  'Career Consulting',
-  'Executive Placement',
-  'CV & Brand Development',
-  'Interview Mastery',
-  'Salary Negotiation',
-  'Graduate Transition',
-]
+  "Executive Search & Placement",
+  "Board of Directors Advisory",
+  "C-Suite Brand Development",
+  "Compensation & Equity Negotiation",
+];
 
 const companyLinks = [
-  'About Us',
-  'Our Process',
-  'Success Stories',
-  'Partner Network',
-  'Careers at Bridgelink',
-  'Contact',
-]
+  "About Us",
+  "Our Process",
+  "Opportunities",
+  "Leadership Team",
+  "Contact",
+];
 
 function FooterLogo() {
   return (
-    <a href="#" className="flex items-center">
+    <a href="/" className="flex items-center">
       <img src={logoWhite} alt="Bridgelink logo" className="h-8 w-auto" />
     </a>
-  )
+  );
 }
 
 export function Footer() {
@@ -34,8 +31,8 @@ export function Footer() {
           <div className="lg:col-span-1">
             <FooterLogo />
             <p className="mt-4 text-sm leading-relaxed text-white/50">
-              Executive career consultancy for professionals who expect
-              strategic guidance, not transactional placement.
+              Elevating Executive Trajectories with premium advisory, discreet
+              search capability, and strategic negotiation support.
             </p>
           </div>
 
@@ -70,11 +67,11 @@ export function Footer() {
                         ? "/contact"
                         : link === "Our Process"
                           ? "/process"
-                          : link === "Success Stories"
+                          : link === "Opportunities"
                             ? "/stories"
                             : link === "About Us"
                               ? "/about"
-                              : "/services"
+                              : "/about"
                     }
                     className="text-sm text-white/60 transition-colors hover:text-gold"
                   >
@@ -90,9 +87,17 @@ export function Footer() {
               Contact
             </h3>
             <ul className="mt-4 space-y-3 text-sm text-white/60">
-              <li>+233 (0)24 499 4544</li>
+              <li>+44 20 7946 1824</li>
               <li>partners@bridgelink.co.uk</li>
-              <li>GP, ACCRA - GHANA</li>
+              <li>20 St James&apos;s Square, London SW1Y 4JH</li>
+              <li>
+                <a
+                  href="/privacy"
+                  className="transition-colors hover:text-gold"
+                >
+                  Privacy Policy
+                </a>
+              </li>
             </ul>
           </div>
         </div>

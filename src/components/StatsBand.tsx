@@ -3,11 +3,11 @@ import { AnimatedSection } from './AnimatedSection'
 import { useInView } from '../hooks/useInView'
 
 const stats = [
-  { icon: TrendingUp, value: '94%', label: 'Placement rate' },
-  { icon: Users, value: '3200+', label: 'Careers advanced' },
-  { icon: Building2, value: '400+', label: 'Partner firms' },
-  { icon: Award, value: '17yrs', label: 'Industry experience' },
-]
+  { icon: TrendingUp, value: "$150M+", label: "Negotiated packages" },
+  { icon: Users, value: "300+", label: "Board placements" },
+  { icon: Building2, value: "98%", label: "Retained search success" },
+  { icon: Award, value: "12wks", label: "Average mandate delivery" },
+];
 
 function StatItem({
   stat,

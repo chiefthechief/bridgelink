@@ -3,11 +3,11 @@ import { AnimatedSection } from './AnimatedSection'
 import { SectionLabel } from './SectionLabel'
 
 const features = [
-  'Former Big Four and bulge-bracket advisors',
-  'Confidential, partner-led engagements',
-  'Sector specialists across finance & consulting',
-  'Outcome-based fee structures available',
-]
+  "Former Fortune 500 CHROs and global search leaders",
+  "Confidential, partner-led engagements with senior oversight",
+  "Sector specialists across finance, technology, and consulting",
+  "Outcome-based advisory structures for executive transitions",
+];
 
 export function AboutSection() {
   return (
@@ -38,16 +38,17 @@ export function AboutSection() {
               Driven by outcomes.
             </h2>
             <p className="mt-6 text-sm leading-relaxed text-muted-text">
-              Founded in London in 2009, Bridgelink was established by senior
-              recruiters and career strategists who saw a gap in the market for
-              genuinely advisory career consultancy — not transactional
-              placement, but strategic partnership.
+              Founded in London, Bridgelink was established by senior recruiters
+              and executive advisers who saw a gap in the market for genuinely
+              strategic career consultancy. We do not treat leadership moves as
+              transactions; we treat them as defining moments that deserve clear
+              thinking, impeccable discretion, and meaningful access.
             </p>
             <p className="mt-4 text-sm leading-relaxed text-muted-text">
-              Today we work with professionals across investment banking,
-              management consulting, private equity, and corporate finance. Every
-              engagement is led by a named partner, with full confidentiality
-              guaranteed from first conversation to signed offer.
+              Today we advise professionals across investment banking, private
+              equity, technology, and corporate finance. Every engagement is led
+              by a named partner and shaped around the reality of your role,
+              your market, and the outcome you want to secure.
             </p>
 
             <div className="mt-10 grid gap-4 sm:grid-cols-2">
@@ -64,5 +65,5 @@ export function AboutSection() {
         </div>
       </div>
     </AnimatedSection>
-  )
+  );
 }

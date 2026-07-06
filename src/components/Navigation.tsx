@@ -6,12 +6,12 @@ import logoWhite from '../assets/logo-white.jpeg'
 import { useScrollY } from '../hooks/useScrollY'
 
 const navLinks = [
-  { label: 'Services', href: '/services' },
-  { label: 'Our Process', href: '/process' },
-  { label: 'Success Stories', href: '/stories' },
-  { label: 'About', href: '/about' },
-  { label: 'Contact', href: '/contact' },
-]
+  { label: "Services", href: "/services" },
+  { label: "Our Process", href: "/process" },
+  { label: "Opportunities", href: "/stories" },
+  { label: "About", href: "/about" },
+  { label: "Contact", href: "/contact" },
+];
 
 function Logo({ light = false }: { light?: boolean }) {
   return (

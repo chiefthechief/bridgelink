@@ -25,22 +25,21 @@ export function CTABanner() {
         </div>
 
         <h2 className="font-display mt-8 text-4xl font-light leading-tight text-white md:text-5xl lg:text-6xl">
-          Your career deserves
-          <br />
-          more than a job board.
+          Your next chapter deserves
+          <br />a more considered introduction.
         </h2>
         <p className="mx-auto mt-6 max-w-lg text-sm leading-relaxed text-white/60">
-          Schedule a confidential consultation with a Bridgelink partner. No
-          obligation, no generic advice — just a clear conversation about where
-          you want to go next.
+          Schedule a confidential consultation with a Bridgelink partner and
+          discuss the next role, board appointment, or compensation strategy
+          that deserves your full attention.
         </p>
         <a
           href="/contact"
           className="mt-10 inline-block bg-gold px-8 py-4 text-sm font-medium text-navy transition-colors hover:bg-gold/90"
         >
-          Book Your Consultation
+          Book a Confidential Consultation
         </a>
       </div>
     </AnimatedSection>
-  )
+  );
 }

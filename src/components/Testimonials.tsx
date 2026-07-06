@@ -6,32 +6,32 @@ import { useInView } from '../hooks/useInView'
 const testimonials = [
   {
     quote:
-      'Bridgelink understood exactly what I needed at a pivotal moment in my career. Within twelve weeks, I had three offers from tier-one firms — and negotiated a package 22% above my initial expectation.',
-    name: 'Catherine Whitfield',
-    role: 'Partner',
-    company: 'Clifford Chance',
+      "Bridgelink mapped the market before I had even decided to move. Their discretion and precision gave me access to roles that were never public and helped me secure a package uplift that exceeded the board’s expectations.",
+    name: "Confidential Executive",
+    role: "Chief Financial Officer",
+    company: "Global FinTech Group",
     avatar:
-      'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=80&h=80&fit=crop&auto=format',
+      "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=80&h=80&fit=crop&auto=format",
   },
   {
     quote:
-      'The interview preparation was exceptional. Every session was tailored to the specific competency frameworks used by the banks I was targeting. I felt genuinely prepared, not rehearsed.',
-    name: 'James Okonkwo',
-    role: 'Director of Strategy',
-    company: 'Barclays',
+      "What stood out was the quality of the market intelligence. Every conversation felt deliberate, and every recommendation was calibrated to my leadership profile rather than a generic search brief.",
+    name: "Confidential Executive",
+    role: "Vice President",
+    company: "Private Equity Portfolio Company",
     avatar:
-      'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&fit=crop&auto=format',
+      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&fit=crop&auto=format",
   },
   {
     quote:
-      'After fifteen years in consulting, I wanted a board advisory role without compromising on compensation. Bridgelink\'s network and negotiation support made that transition seamless and entirely confidential.',
-    name: 'Eleanor Marsh',
-    role: 'Non-Executive Director',
-    company: 'FTSE 100 Financial Services',
+      "Their network is exceptional, but the real value was the calm, high-level counsel around negotiation. I walked into the final conversation with clarity, leverage, and a package that truly reflected my contribution.",
+    name: "Confidential Executive",
+    role: "Managing Director",
+    company: "International Advisory Firm",
     avatar:
-      'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=80&h=80&fit=crop&auto=format',
+      "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=80&h=80&fit=crop&auto=format",
   },
-]
+];
 
 function TestimonialCard({
   testimonial,

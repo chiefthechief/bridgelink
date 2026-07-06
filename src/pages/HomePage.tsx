@@ -2,10 +2,10 @@ import { Hero } from '../components/Hero'
 import { ServicesGrid } from '../components/ServicesGrid'
 import { StatsBand } from '../components/StatsBand'
 import { ProcessSection } from '../components/ProcessSection'
-import { Testimonials } from '../components/Testimonials'
-import { AboutSection } from '../components/AboutSection'
-import { CTABanner } from '../components/CTABanner'
-import { Contact } from '../components/Contact'
+import { OpportunitiesSection } from "../components/OpportunitiesSection";
+import { AboutSection } from "../components/AboutSection";
+import { CTABanner } from "../components/CTABanner";
+import { Contact } from "../components/Contact";
 
 export function HomePage() {
   return (
@@ -14,10 +14,10 @@ export function HomePage() {
       <ServicesGrid />
       <StatsBand />
       <ProcessSection />
-      <Testimonials />
+      <OpportunitiesSection />
       <AboutSection />
       <CTABanner />
       <Contact />
     </main>
-  )
+  );
 }
