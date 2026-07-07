@@ -5,7 +5,8 @@ import { HomePage } from './pages/HomePage'
 import { ServicesPage } from './pages/ServicesPage'
 import { ServiceDetailPage } from './pages/ServiceDetailPage'
 import { ProcessPage } from './pages/ProcessPage'
-import { StoriesPage } from './pages/StoriesPage'
+import { CareersPage } from './pages/CareersPage'
+import { InsightsPage } from './pages/InsightsPage'
 import { AboutPage } from './pages/AboutPage'
 import { ContactPage } from './pages/ContactPage'
 
@@ -19,7 +20,8 @@ function App() {
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/services/:slug" element={<ServiceDetailPage />} />
           <Route path="/process" element={<ProcessPage />} />
-          <Route path="/stories" element={<StoriesPage />} />
+          <Route path="/careers" element={<CareersPage />} />
+          <Route path="/insights" element={<InsightsPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>

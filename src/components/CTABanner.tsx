@@ -20,24 +20,24 @@ export function CTABanner() {
       <div className="relative mx-auto max-w-3xl px-6 text-center lg:px-8">
         <div className="flex items-center justify-center gap-4">
           <span className="h-px w-12 bg-gold" />
-          <SectionLabel>Begin Today</SectionLabel>
+          <SectionLabel>Ready to Engage</SectionLabel>
           <span className="h-px w-12 bg-gold" />
         </div>
 
         <h2 className="font-display mt-8 text-4xl font-light leading-tight text-white md:text-5xl lg:text-6xl">
-          Your next chapter deserves
-          <br />a more considered introduction.
+          Every mandate begins with
+          <br />a confidential conversation.
         </h2>
         <p className="mx-auto mt-6 max-w-lg text-sm leading-relaxed text-white/60">
-          Schedule a confidential consultation with a Bridgelink partner and
-          discuss the next role, board appointment, or compensation strategy
-          that deserves your full attention.
+          We respond to verified institutional and ministerial enquiries within
+          two business days. Correspondence is routed directly to our governance
+          desk and handled under strict confidentiality.
         </p>
         <a
           href="/contact"
           className="mt-10 inline-block bg-gold px-8 py-4 text-sm font-medium text-navy transition-colors hover:bg-gold/90"
         >
-          Book a Confidential Consultation
+          Initiate Consultation
         </a>
       </div>
     </AnimatedSection>

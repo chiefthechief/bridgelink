@@ -6,22 +6,22 @@ export function ServicesPage() {
   return (
     <>
       <PageHeader
-        eyebrow="Services"
-        title="Strategy-led support for every stage of your next move."
-        description="From confidential executive search support to personal brand positioning, Bridgelink helps experienced professionals step into roles with clarity and momentum."
+        eyebrow="Service Portfolios"
+        title="Five statutory service portfolios for sovereign and private enterprise."
+        description="From corporate governance and agricultural venture advisory to real estate, healthcare infrastructure, and logistics — Bridge Link delivers disciplined, multi-sector counsel across West Africa."
       >
         <div className="flex flex-wrap gap-3">
           <Link
             to="/contact"
             className="bg-navy px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-navy/90"
           >
-            Schedule a consultation
+            Initiate consultation
           </Link>
           <Link
             to="/process"
             className="border border-border px-6 py-3 text-sm font-medium text-navy transition-colors hover:border-gold hover:text-gold"
           >
-            See our process
+            See our approach
           </Link>
         </div>
       </PageHeader>
@@ -56,7 +56,7 @@ export function ServicesPage() {
                 to={`/services/${service.slug}`}
                 className="mt-6 inline-flex text-sm font-medium text-gold transition-colors hover:text-navy"
               >
-                Learn more →
+                Explore →
               </Link>
             </article>
           ))}

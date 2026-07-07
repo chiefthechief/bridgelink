@@ -3,10 +3,10 @@ import { AnimatedSection } from './AnimatedSection'
 import { SectionLabel } from './SectionLabel'
 
 const features = [
-  "Former Fortune 500 CHROs and global search leaders",
-  "Confidential, partner-led engagements with senior oversight",
-  "Sector specialists across finance, technology, and consulting",
-  "Outcome-based advisory structures for executive transitions",
+  "Incorporated under the Companies Act 2019 (Act 992), Republic of Ghana",
+  "Multi-sector advisory across governance, agriculture, healthcare, and logistics",
+  "Contract-based job placements connecting Ghanaian talent with local and international employers",
+  "Audited governance with Karts Consult as independent corporate auditor",
 ];
 
 export function AboutSection() {
@@ -17,38 +17,39 @@ export function AboutSection() {
           <div className="relative">
             <div className="aspect-square overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&h=800&fit=crop&auto=format"
-                alt="Bridgelink advisory team"
+                src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&h=800&fit=crop&auto=format"
+                alt="Bridge Link advisory team"
                 className="h-full w-full object-cover"
               />
             </div>
             <div className="absolute -bottom-6 -right-6 bg-navy px-8 py-6">
-              <p className="font-display text-4xl font-light text-gold">17</p>
+              <p className="font-display text-4xl font-light text-gold">2024</p>
               <p className="mt-1 text-xs uppercase tracking-widest text-white/60">
-                Years of Excellence
+                Year of Incorporation
               </p>
             </div>
           </div>
 
           <div>
-            <SectionLabel>About Bridgelink</SectionLabel>
+            <SectionLabel>Who We Are</SectionLabel>
             <h2 className="font-display mt-4 text-4xl font-light leading-tight text-navy md:text-5xl">
-              Built by advisors.
+              A Single Point of Trust
               <br />
-              Driven by outcomes.
+              for Multi-Sector Enterprise
             </h2>
             <p className="mt-6 text-sm leading-relaxed text-muted-text">
-              Founded in London, Bridgelink was established by senior recruiters
-              and executive advisers who saw a gap in the market for genuinely
-              strategic career consultancy. We do not treat leadership moves as
-              transactions; we treat them as defining moments that deserve clear
-              thinking, impeccable discretion, and meaningful access.
+              Bridge Link Services UG Ltd was founded on a simple premise: that
+              government bodies, institutional partners, and private investors
+              deserve a single, accountable advisory relationship across the
+              sectors that matter most to national development — corporate
+              governance, agriculture, healthcare, education, real estate, and
+              logistics.
             </p>
             <p className="mt-4 text-sm leading-relaxed text-muted-text">
-              Today we advise professionals across investment banking, private
-              equity, technology, and corporate finance. Every engagement is led
-              by a named partner and shaped around the reality of your role,
-              your market, and the outcome you want to secure.
+              Since incorporation under the Companies Act 2019 (Act 992), we have
+              built our practice on disciplined governance, full regulatory
+              transparency, and a quiet preference for substance over
+              self-promotion.
             </p>
 
             <div className="mt-10 grid gap-4 sm:grid-cols-2">

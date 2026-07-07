@@ -1,24 +1,25 @@
 import { useState, type FormEvent } from 'react'
 import { Mail, MapPin, Phone } from 'lucide-react'
 import { AnimatedSection } from './AnimatedSection'
+import { contactPoints } from '../data/content'
 
 const contactDetails = [
   {
     icon: Phone,
-    label: "Telephone",
-    value: "+44 20 7946 1824",
-    href: "tel:+442079461824",
+    label: "Secure Lines",
+    value: contactPoints[0].value,
+    href: "tel:+233244994544",
   },
   {
     icon: Mail,
-    label: "Email",
-    value: "partners@bridgelink.co.uk",
-    href: "mailto:partners@bridgelink.co.uk",
+    label: "Digital Desk",
+    value: contactPoints[1].value,
+    href: `mailto:${contactPoints[1].value}`,
   },
   {
     icon: MapPin,
-    label: "Office",
-    value: "20 St James's Square, London SW1Y 4JH",
+    label: "Corporate Headquarters",
+    value: contactPoints[2].value,
     href: undefined,
   },
 ];
@@ -37,11 +38,12 @@ export function Contact() {
         <div className="grid gap-16 lg:grid-cols-2 lg:gap-20">
           <div>
             <h2 className="font-display text-4xl font-light text-navy md:text-5xl">
-              Let&apos;s start the conversation.
+              Initiate a Confidential Mandate
             </h2>
             <p className="mt-4 text-sm leading-relaxed text-muted-text">
-              All enquiries are handled confidentially by a named Bridgelink
-              partner. We typically respond within one business day.
+              Correspondence is routed directly to our governance desk and
+              handled under strict confidentiality. We respond to verified
+              institutional and ministerial enquiries within two business days.
             </p>
 
             <div className="mt-10 space-y-6">
@@ -77,45 +79,46 @@ export function Contact() {
             {submitted ? (
               <div className="border border-border bg-muted-surface p-10 text-center">
                 <p className="font-display text-2xl font-light text-navy">
-                  Thank you for reaching out.
+                  Thank you for your enquiry.
                 </p>
                 <p className="mt-3 text-sm text-muted-text">
-                  A Bridgelink partner will be in touch within one business day.
+                  Our governance desk will respond within two business days.
                 </p>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-5">
-                <div className="grid gap-5 sm:grid-cols-2">
-                  <div>
-                    <label
-                      htmlFor="firstName"
-                      className="mb-2 block text-xs uppercase tracking-widest text-muted-text"
-                    >
-                      First Name
-                    </label>
-                    <input
-                      id="firstName"
-                      name="firstName"
-                      type="text"
-                      required
-                      className="w-full border border-border bg-white px-4 py-3 text-sm text-navy outline-none transition-colors focus:border-gold"
-                    />
-                  </div>
-                  <div>
-                    <label
-                      htmlFor="lastName"
-                      className="mb-2 block text-xs uppercase tracking-widest text-muted-text"
-                    >
-                      Last Name
-                    </label>
-                    <input
-                      id="lastName"
-                      name="lastName"
-                      type="text"
-                      required
-                      className="w-full border border-border bg-white px-4 py-3 text-sm text-navy outline-none transition-colors focus:border-gold"
-                    />
-                  </div>
+                <div>
+                  <label
+                    htmlFor="fullName"
+                    className="mb-2 block text-xs uppercase tracking-widest text-muted-text"
+                  >
+                    Official Full Name
+                  </label>
+                  <input
+                    id="fullName"
+                    name="fullName"
+                    type="text"
+                    required
+                    placeholder="Full name"
+                    className="w-full border border-border bg-white px-4 py-3 text-sm text-navy outline-none transition-colors focus:border-gold"
+                  />
+                </div>
+
+                <div>
+                  <label
+                    htmlFor="organization"
+                    className="mb-2 block text-xs uppercase tracking-widest text-muted-text"
+                  >
+                    Organization / Ministry
+                  </label>
+                  <input
+                    id="organization"
+                    name="organization"
+                    type="text"
+                    required
+                    placeholder="Organization"
+                    className="w-full border border-border bg-white px-4 py-3 text-sm text-navy outline-none transition-colors focus:border-gold"
+                  />
                 </div>
 
                 <div>
@@ -123,28 +126,14 @@ export function Contact() {
                     htmlFor="email"
                     className="mb-2 block text-xs uppercase tracking-widest text-muted-text"
                   >
-                    Email
+                    Secure Routing Email
                   </label>
                   <input
                     id="email"
                     name="email"
                     type="email"
                     required
-                    className="w-full border border-border bg-white px-4 py-3 text-sm text-navy outline-none transition-colors focus:border-gold"
-                  />
-                </div>
-
-                <div>
-                  <label
-                    htmlFor="currentRole"
-                    className="mb-2 block text-xs uppercase tracking-widest text-muted-text"
-                  >
-                    Current Role
-                  </label>
-                  <input
-                    id="currentRole"
-                    name="currentRole"
-                    type="text"
+                    placeholder="name@institution.gov.gh"
                     className="w-full border border-border bg-white px-4 py-3 text-sm text-navy outline-none transition-colors focus:border-gold"
                   />
                 </div>
@@ -154,13 +143,14 @@ export function Contact() {
                     htmlFor="message"
                     className="mb-2 block text-xs uppercase tracking-widest text-muted-text"
                   >
-                    Message
+                    Mandate Summary / Institutional Requirements
                   </label>
                   <textarea
                     id="message"
                     name="message"
                     rows={5}
                     required
+                    placeholder="Briefly describe the engagement"
                     className="w-full resize-none border border-border bg-white px-4 py-3 text-sm text-navy outline-none transition-colors focus:border-gold"
                   />
                 </div>
@@ -169,7 +159,7 @@ export function Contact() {
                   type="submit"
                   className="w-full bg-navy py-4 text-sm font-medium text-white transition-colors hover:bg-navy/90"
                 >
-                  Send Enquiry
+                  Submit Secure Enquiry
                 </button>
               </form>
             )}

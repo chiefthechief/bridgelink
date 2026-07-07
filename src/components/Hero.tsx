@@ -2,10 +2,10 @@ import { ChevronDown } from 'lucide-react'
 import { SectionLabel } from './SectionLabel'
 
 const stats = [
-  { value: "$150M+", label: "Negotiated packages" },
-  { value: "300+", label: "Board placements" },
-  { value: "98%", label: "Retained search success" },
-  { value: "12wks", label: "Average mandate delivery" },
+  { value: "5", label: "Sovereign statutory portfolios" },
+  { value: "20", label: "Envisaged senior experts" },
+  { value: "Act 992", label: "Full vetting compliance" },
+  { value: "20M", label: "Authorized shares" },
 ];
 
 export function Hero() {
@@ -17,7 +17,7 @@ export function Hero() {
         className="absolute inset-0 bg-cover bg-center opacity-30"
         style={{
           backgroundImage:
-            "url(https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&h=1080&fit=crop&auto=format)",
+            "url(https://images.unsplash.com/photo-1489392191049-fc10c97e1b30?w=1920&h=1080&fit=crop&auto=format)",
         }}
       />
       <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(25,86,190,0.95)_0%,rgba(25,86,190,0.82)_45%,rgba(25,86,190,0.65)_100%)]" />
@@ -25,26 +25,18 @@ export function Hero() {
       <div className="relative mx-auto flex w-full max-w-7xl flex-1 flex-col justify-center px-6 pb-24 pt-32 lg:px-8">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <div>
-            <SectionLabel>Bridgelink Career Consultancy</SectionLabel>
+            <SectionLabel>Republic of Ghana · Registrar-General Incorporated</SectionLabel>
             <h1 className="font-display mt-6 text-5xl font-light leading-[1.1] text-white md:text-6xl lg:text-7xl">
-              The next move
+              Bridging Capital,
               <br />
-              should define your
+              Governance, and
               <br />
-              <span className="gold-emphasis">legacy.</span>
+              <span className="gold-emphasis">Global Enterprise.</span>
             </h1>
             <div className="mt-6 max-w-xl space-y-3 text-base leading-relaxed text-white/80">
               <p>
-                Executive Search: discreetly identifying the right opportunity
-                before the market has fully recognised it.
-              </p>
-              <p>
-                Board Placement: positioning exceptional leaders for governance
-                roles that demand credibility, foresight, and influence.
-              </p>
-              <p>
-                Elite Compensation Negotiation: securing market-leading packages
-                with equity, cash, and terms structured around long-term value.
+                Elite multi-sector consultancy and bespoke operational infrastructure
+                engineered for sovereign and private enterprises across West Africa.
               </p>
             </div>
             <div className="mt-10 flex flex-wrap gap-4">
@@ -52,13 +44,13 @@ export function Hero() {
                 href="/contact"
                 className="bg-gold px-7 py-3.5 text-sm font-medium text-navy transition-colors hover:bg-gold/90"
               >
-                Book a Confidential Consultation
+                Initiate Consultation
               </a>
               <a
                 href="/services"
                 className="border border-white/30 px-7 py-3.5 text-sm font-medium text-white transition-colors hover:border-white/60 hover:bg-white/5"
               >
-                Explore Advisory Services
+                Explore Service Portfolios
               </a>
             </div>
           </div>

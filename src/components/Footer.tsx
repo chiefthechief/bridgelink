@@ -1,24 +1,27 @@
 import logoWhite from '../assets/logo-white.jpeg'
+import { contactPoints } from '../data/content'
 
-const serviceLinks = [
-  "Executive Search & Placement",
-  "Board of Directors Advisory",
-  "C-Suite Brand Development",
-  "Compensation & Equity Negotiation",
+const portfolioLinks = [
+  "Corporate & Business Consultancy",
+  "Agricultural Venture Advisory",
+  "Medical & Educational Infrastructure",
+  "Premium Real Estate Advisory",
+  "Logistics & Transportation Systems",
 ];
 
 const companyLinks = [
-  "About Us",
-  "Our Process",
-  "Opportunities",
-  "Leadership Team",
-  "Contact",
+  { label: "About Us", href: "/about" },
+  { label: "How We Work", href: "/process" },
+  { label: "Leadership", href: "/about#governance" },
+  { label: "Insights & Briefings", href: "/insights" },
+  { label: "Careers", href: "/careers" },
+  { label: "Secure Enquiry", href: "/contact" },
 ];
 
 function FooterLogo() {
   return (
     <a href="/" className="flex items-center">
-      <img src={logoWhite} alt="Bridgelink logo" className="h-8 w-auto" />
+      <img src={logoWhite} alt="Bridge Link Services UG Ltd logo" className="h-8 w-auto" />
     </a>
   );
 }
@@ -31,17 +34,23 @@ export function Footer() {
           <div className="lg:col-span-1">
             <FooterLogo />
             <p className="mt-4 text-sm leading-relaxed text-white/50">
-              Elevating Executive Trajectories with premium advisory, discreet
-              search capability, and strategic negotiation support.
+              Elite multi-sector consultancy and bespoke operational infrastructure
+              engineered for sovereign and private enterprises across West Africa.
             </p>
+            <a
+              href="/contact"
+              className="mt-6 inline-block bg-gold px-5 py-2.5 text-sm font-medium text-navy transition-colors hover:bg-gold/90"
+            >
+              Initiate Consultation
+            </a>
           </div>
 
           <div>
             <h3 className="text-xs uppercase tracking-widest text-white/40">
-              Services
+              Service Portfolios
             </h3>
             <ul className="mt-4 space-y-3">
-              {serviceLinks.map((link) => (
+              {portfolioLinks.map((link) => (
                 <li key={link}>
                   <a
                     href="/services"
@@ -60,22 +69,12 @@ export function Footer() {
             </h3>
             <ul className="mt-4 space-y-3">
               {companyLinks.map((link) => (
-                <li key={link}>
+                <li key={link.label}>
                   <a
-                    href={
-                      link === "Contact"
-                        ? "/contact"
-                        : link === "Our Process"
-                          ? "/process"
-                          : link === "Opportunities"
-                            ? "/stories"
-                            : link === "About Us"
-                              ? "/about"
-                              : "/about"
-                    }
+                    href={link.href}
                     className="text-sm text-white/60 transition-colors hover:text-gold"
                   >
-                    {link}
+                    {link.label}
                   </a>
                 </li>
               ))}
@@ -84,18 +83,18 @@ export function Footer() {
 
           <div>
             <h3 className="text-xs uppercase tracking-widest text-white/40">
-              Contact
+              Corporate Headquarters
             </h3>
             <ul className="mt-4 space-y-3 text-sm text-white/60">
-              <li>+44 20 7946 1824</li>
-              <li>partners@bridgelink.co.uk</li>
-              <li>20 St James&apos;s Square, London SW1Y 4JH</li>
+              <li>{contactPoints[2].value}</li>
+              <li>{contactPoints[3].value}</li>
+              <li>{contactPoints[0].value}</li>
               <li>
                 <a
-                  href="/privacy"
+                  href={`mailto:${contactPoints[1].value}`}
                   className="transition-colors hover:text-gold"
                 >
-                  Privacy Policy
+                  {contactPoints[1].value}
                 </a>
               </li>
             </ul>
@@ -104,14 +103,31 @@ export function Footer() {
       </div>
 
       <div className="border-t border-white/10">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 py-6 text-xs text-white/30 sm:flex-row lg:px-8">
-          <p>
-            Bridgelink Career Consultancy Ltd. Registered in England & Wales No.
-            08472931
+        <div className="mx-auto max-w-7xl px-6 py-8 lg:px-8">
+          <p className="text-xs leading-relaxed text-white/30">
+            Bridge Link Services UG Ltd is a private company limited by shares,
+            incorporated under the Companies Act 2019 (Act 992) of the Republic
+            of Ghana. Throughout this website, &ldquo;we,&rdquo; &ldquo;Bridge
+            Link,&rdquo; and &ldquo;our&rdquo; refer to Bridge Link Services UG
+            Ltd. This website provides general information about our service
+            portfolios and does not constitute a binding offer or professional
+            advice; specific engagements are governed by separate, signed
+            agreements.
           </p>
-          <p>
-            &copy; {new Date().getFullYear()} Bridgelink. All rights reserved.
-          </p>
+          <div className="mt-6 flex flex-col items-center justify-between gap-4 text-xs text-white/30 sm:flex-row">
+            <p>
+              &copy; {new Date().getFullYear()} Bridge Link Services UG Ltd. All
+              rights reserved. Republic of Ghana.
+            </p>
+            <div className="flex gap-4">
+              <a href="/privacy" className="transition-colors hover:text-gold">
+                Privacy Policy
+              </a>
+              <a href="/terms" className="transition-colors hover:text-gold">
+                Terms of Use
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

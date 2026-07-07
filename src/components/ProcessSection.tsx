@@ -1,33 +1,7 @@
 import { CheckCircle2 } from 'lucide-react'
 import { AnimatedSection } from './AnimatedSection'
 import { SectionLabel } from './SectionLabel'
-
-const steps = [
-  {
-    number: '01',
-    title: 'Discovery & Assessment',
-    description:
-      'We begin with a confidential consultation to understand your career trajectory, ambitions, and the market landscape relevant to your sector.',
-  },
-  {
-    number: '02',
-    title: 'Strategy & Positioning',
-    description:
-      'Our advisors develop a tailored career strategy — refining your narrative, target roles, and approach to market engagement.',
-  },
-  {
-    number: '03',
-    title: 'Active Placement',
-    description:
-      'Through our partner network and direct outreach, we introduce you to opportunities aligned with your criteria and compensation expectations.',
-  },
-  {
-    number: '04',
-    title: 'Offer & Transition',
-    description:
-      'We support negotiation, onboarding preparation, and the first 90 days — ensuring your move delivers lasting professional impact.',
-  },
-]
+import { processSteps } from '../data/content'
 
 export function ProcessSection() {
   return (
@@ -35,19 +9,23 @@ export function ProcessSection() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="grid items-start gap-16 lg:grid-cols-2 lg:gap-20">
           <div>
-            <SectionLabel>Our Process</SectionLabel>
+            <SectionLabel>Methodology</SectionLabel>
             <h2 className="font-display mt-4 text-4xl font-light text-navy md:text-5xl">
-              A disciplined path to your next chapter.
+              How We Work
             </h2>
+            <p className="mt-4 text-sm leading-relaxed text-muted-text">
+              A disciplined, four-stage engagement model designed for
+              institutional accountability at every step.
+            </p>
 
             <div className="mt-12">
-              {steps.map((step, i) => (
+              {processSteps.map((step, i) => (
                 <div
-                  key={step.number}
-                  className={`py-8 ${i < steps.length - 1 ? 'border-b border-border' : ''}`}
+                  key={step.title}
+                  className={`py-8 ${i < processSteps.length - 1 ? 'border-b border-border' : ''}`}
                 >
                   <span className="font-display text-5xl font-light text-gold/30">
-                    {step.number}
+                    0{i + 1}
                   </span>
                   <h3 className="font-display mt-2 text-xl font-light text-navy">
                     {step.title}
@@ -64,8 +42,8 @@ export function ProcessSection() {
             <div className="absolute -right-4 -top-4 z-10 h-24 w-24 border-2 border-gold" />
             <div className="relative aspect-[3/4] overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&h=1067&fit=crop&auto=format"
-                alt="Executive team in strategy meeting"
+                src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=1067&fit=crop&auto=format"
+                alt="Advisory team in strategy session"
                 className="h-full w-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy/60 via-transparent to-transparent" />
@@ -79,13 +57,13 @@ export function ProcessSection() {
                   />
                   <div>
                     <p className="text-xs uppercase tracking-widest text-muted-text">
-                      Placement Confirmed
+                      Mandate Confirmed
                     </p>
                     <p className="font-display mt-1 text-lg font-light text-navy">
-                      Managing Director, Investment Banking
+                      Agricultural Value Chain Restructuring
                     </p>
                     <p className="mt-1 text-sm font-medium text-gold">
-                      £285,000 base + bonus
+                      Regional Agribusiness Group
                     </p>
                   </div>
                 </div>

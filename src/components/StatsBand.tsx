@@ -1,12 +1,12 @@
-import { Award, Building2, TrendingUp, Users } from 'lucide-react'
+import { Award, Building2, Scale, Users } from 'lucide-react'
 import { AnimatedSection } from './AnimatedSection'
 import { useInView } from '../hooks/useInView'
 
 const stats = [
-  { icon: TrendingUp, value: "$150M+", label: "Negotiated packages" },
-  { icon: Users, value: "300+", label: "Board placements" },
-  { icon: Building2, value: "98%", label: "Retained search success" },
-  { icon: Award, value: "12wks", label: "Average mandate delivery" },
+  { icon: Building2, value: "5", label: "Sovereign statutory portfolios" },
+  { icon: Users, value: "20", label: "Envisaged senior experts" },
+  { icon: Scale, value: "Act 992", label: "Full vetting compliance" },
+  { icon: Award, value: "Karts Consult", label: "Corporate auditor" },
 ];
 
 function StatItem({

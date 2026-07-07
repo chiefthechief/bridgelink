@@ -6,10 +6,12 @@ import logoWhite from '../assets/logo-white.jpeg'
 import { useScrollY } from '../hooks/useScrollY'
 
 const navLinks = [
-  { label: "Services", href: "/services" },
-  { label: "Our Process", href: "/process" },
-  { label: "Opportunities", href: "/stories" },
   { label: "About", href: "/about" },
+  { label: "Portfolios", href: "/services" },
+  { label: "Approach", href: "/process" },
+  { label: "Governance", href: "/about#governance" },
+  { label: "Insights", href: "/insights" },
+  { label: "Careers", href: "/careers" },
   { label: "Contact", href: "/contact" },
 ];
 
@@ -18,7 +20,7 @@ function Logo({ light = false }: { light?: boolean }) {
     <Link to="/" className="flex items-center">
       <img
         src={light ? logoWhite : logoBlue}
-        alt="Bridgelink logo"
+        alt="Bridge Link Services UG Ltd logo"
         className="h-8 w-auto"
       />
     </Link>
@@ -64,7 +66,7 @@ export function Navigation() {
             to="/contact"
             className={`text-sm font-medium transition-colors hover:text-gold ${isOpaque ? 'text-muted-text' : 'text-white/70'}`}
           >
-            Book a call
+            Contact
           </Link>
           <Link
             to="/contact"
@@ -74,7 +76,7 @@ export function Navigation() {
                 : 'bg-white text-navy hover:bg-white/90'
             }`}
           >
-            Get Started
+            Initiate Consultation
           </Link>
         </div>
 
@@ -109,14 +111,14 @@ export function Navigation() {
               className="text-sm font-medium text-muted-text hover:text-gold"
               onClick={() => setMobileOpen(false)}
             >
-              Book a call
+              Contact
             </Link>
             <Link
               to="/contact"
               className="bg-navy px-5 py-2.5 text-center text-sm font-medium text-white"
               onClick={() => setMobileOpen(false)}
             >
-              Get Started
+              Initiate Consultation
             </Link>
           </div>
         </div>
