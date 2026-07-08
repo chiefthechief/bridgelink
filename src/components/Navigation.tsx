@@ -9,7 +9,6 @@ const navLinks = [
   { label: "About", href: "/about" },
   { label: "Portfolios", href: "/services" },
   { label: "Approach", href: "/process" },
-  { label: "Governance", href: "/about#governance" },
   { label: "Insights", href: "/insights" },
   { label: "Careers", href: "/careers" },
   { label: "Contact", href: "/contact" },
@@ -62,12 +61,6 @@ export function Navigation() {
         </ul>
 
         <div className="hidden items-center gap-6 lg:flex">
-          <Link
-            to="/contact"
-            className={`text-sm font-medium transition-colors hover:text-gold ${isOpaque ? 'text-muted-text' : 'text-white/70'}`}
-          >
-            Contact
-          </Link>
           <Link
             to="/contact"
             className={`px-5 py-2.5 text-sm font-medium transition-colors ${
