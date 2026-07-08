@@ -25,7 +25,7 @@ function ServiceCard({
       <h3 className="font-display mt-4 text-xl font-light text-navy">
         {service.title}
       </h3>
-      <p className="mt-3 text-sm leading-relaxed text-muted-text">
+      <p className="mt-3 text-lg leading-relaxed text-muted-text">
         {service.description}
       </p>
       <div className="mt-5 flex flex-wrap gap-2">

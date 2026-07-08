@@ -40,7 +40,7 @@ export function Contact() {
             <h2 className="font-display text-4xl font-light text-navy md:text-5xl">
               Initiate a Confidential Mandate
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-muted-text">
+            <p className="mt-4 text-lg leading-relaxed text-muted-text">
               Correspondence is routed directly to our governance desk and
               handled under strict confidentiality. We respond to verified
               institutional and ministerial enquiries within two business days.

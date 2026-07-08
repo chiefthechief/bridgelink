@@ -11,7 +11,7 @@ export function Testimonials() {
           <h2 className="font-display mt-4 text-4xl font-light text-navy md:text-5xl">
             Partner &amp; Client Confidence
           </h2>
-          <p className="mt-4 text-sm leading-relaxed text-muted-text">
+          <p className="mt-4 text-lg leading-relaxed text-muted-text">
             Sample reflections from the institutional and private clients we are
             privileged to advise. Identifying details withheld at client
             request, consistent with our discretion policy.

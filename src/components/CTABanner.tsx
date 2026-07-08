@@ -28,7 +28,7 @@ export function CTABanner() {
           Every mandate begins with
           <br />a confidential conversation.
         </h2>
-        <p className="mx-auto mt-6 max-w-lg text-sm leading-relaxed text-white/60">
+        <p className="mx-auto mt-6 max-w-lg text-lg leading-relaxed text-white/60">
           We respond to verified institutional and ministerial enquiries within
           two business days. Correspondence is routed directly to our governance
           desk and handled under strict confidentiality.

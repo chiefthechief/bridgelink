@@ -24,7 +24,7 @@ export function Hero() {
               <br />
               <span className="gold-emphasis">Global Enterprise.</span>
             </h1>
-            <div className="mt-6 max-w-xl space-y-3 text-base leading-relaxed text-white/80">
+            <div className="mt-6 max-w-xl space-y-3 text-xl leading-relaxed text-white/80">
               <p>
                 Elite multi-sector consultancy and bespoke operational
                 infrastructure engineered for sovereign and private enterprises

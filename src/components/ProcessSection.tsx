@@ -13,7 +13,7 @@ export function ProcessSection() {
             <h2 className="font-display mt-4 text-4xl font-light text-navy md:text-5xl">
               How We Work
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-muted-text">
+            <p className="mt-4 text-lg leading-relaxed text-muted-text">
               A disciplined, four-stage engagement model designed for
               institutional accountability at every step.
             </p>
@@ -30,7 +30,7 @@ export function ProcessSection() {
                   <h3 className="font-display mt-2 text-xl font-light text-navy">
                     {step.title}
                   </h3>
-                  <p className="mt-3 text-sm leading-relaxed text-muted-text">
+                  <p className="mt-3 text-lg leading-relaxed text-muted-text">
                     {step.description}
                   </p>
                 </div>

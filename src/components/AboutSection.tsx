@@ -36,7 +36,7 @@ export function AboutSection() {
               <br />
               for Multi-Sector Enterprise
             </h2>
-            <p className="mt-6 text-sm leading-relaxed text-muted-text">
+            <p className="mt-6 text-lg leading-relaxed text-muted-text">
               Bridge Link Services UG Ltd was founded on a simple premise: that
               government bodies, institutional partners, and private investors
               deserve a single, accountable advisory relationship across the
@@ -44,7 +44,7 @@ export function AboutSection() {
               governance, agriculture, healthcare, education, real estate, and
               logistics.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-muted-text">
+            <p className="mt-4 text-lg leading-relaxed text-muted-text">
               Since incorporation, we have
               built our practice on disciplined governance, full regulatory
               transparency, and a quiet preference for substance over

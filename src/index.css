@@ -2,7 +2,10 @@
 @import 'tailwindcss';
 
 @theme {
-  --color-navy: #4a8af7;
+  --color-navy: #1c3f82;
+
+
+
 
   --color-gold: #c9a84c;
   --color-muted-surface: #f5f7fb;
@@ -37,8 +40,9 @@ body {
   background: #ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 3rem;
+  font-size: 22px;
 }
+
 
 
 html,
