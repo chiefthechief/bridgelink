@@ -3,7 +3,6 @@ import { AnimatedSection } from './AnimatedSection'
 import { SectionLabel } from './SectionLabel'
 
 const features = [
-  "Incorporated under the Companies Act 2019 (Act 992), Republic of Ghana",
   "Multi-sector advisory across governance, agriculture, healthcare, and logistics",
   "Contract-based job placements connecting Ghanaian talent with local and international employers",
   "Audited governance with Karts Consult as independent corporate auditor",
@@ -46,7 +45,7 @@ export function AboutSection() {
               logistics.
             </p>
             <p className="mt-4 text-sm leading-relaxed text-muted-text">
-              Since incorporation under the Companies Act 2019 (Act 992), we have
+              Since incorporation, we have
               built our practice on disciplined governance, full regulatory
               transparency, and a quiet preference for substance over
               self-promotion.

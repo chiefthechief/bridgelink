@@ -16,7 +16,7 @@ function ServiceCard({
   return (
     <div
       ref={ref}
-      className={`group bg-white p-8 transition-colors hover:bg-muted-surface/50 md:p-10 fade-in-view ${isInView ? 'is-visible' : ''}`}
+      className={`group bg-white p-8 transition-colors hover:bg-muted-surface/50 md:p-10 fade-in-view ${isInView ? "is-visible" : ""} border border-border/60`}
       style={{ transitionDelay: `${index * 100}ms` }}
     >
       <span className="font-display text-[3rem] font-light leading-none text-gold/30 transition-colors group-hover:text-gold">
@@ -45,7 +45,7 @@ function ServiceCard({
         Learn more →
       </Link>
     </div>
-  )
+  );
 }
 
 export function ServicesGrid() {
@@ -55,16 +55,17 @@ export function ServicesGrid() {
         <div className="max-w-2xl">
           <SectionLabel>Our Mandate</SectionLabel>
           <h2 className="font-display mt-4 text-4xl font-light leading-tight text-navy md:text-5xl">
-            Five Statutory Service <span className="gold-emphasis">Portfolios</span>
+            Five Statutory Service{" "}
+            <span className="gold-emphasis">Portfolios</span>
           </h2>
         </div>
 
-        <div className="mt-16 grid gap-px bg-border md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {services.map((service, i) => (
             <ServiceCard key={service.number} service={service} index={i} />
           ))}
         </div>
       </div>
     </AnimatedSection>
-  )
+  );
 }

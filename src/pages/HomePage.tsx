@@ -1,6 +1,6 @@
 import { Hero } from '../components/Hero'
 import { ServicesGrid } from '../components/ServicesGrid'
-import { StatsBand } from '../components/StatsBand'
+
 import { ProcessSection } from '../components/ProcessSection'
 import { OpportunitiesSection } from "../components/OpportunitiesSection";
 import { Testimonials } from "../components/Testimonials";
@@ -13,7 +13,7 @@ export function HomePage() {
     <main>
       <Hero />
       <ServicesGrid />
-      <StatsBand />
+      {/* StatsBand removed per request */}
       <ProcessSection />
       <Testimonials />
       <OpportunitiesSection />

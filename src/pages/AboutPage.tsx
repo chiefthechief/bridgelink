@@ -42,7 +42,7 @@ export function AboutPage() {
               logistics.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-muted-text">
-              Since incorporation under the Companies Act 2019 (Act 992), we have
+              Since incorporation, we have
               built our practice on disciplined governance, full regulatory
               transparency, and a quiet preference for substance over
               self-promotion.

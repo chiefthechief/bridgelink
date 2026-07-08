@@ -104,16 +104,6 @@ export function Footer() {
 
       <div className="border-t border-white/10">
         <div className="mx-auto max-w-7xl px-6 py-8 lg:px-8">
-          <p className="text-xs leading-relaxed text-white/30">
-            Bridge Link Services UG Ltd is a private company limited by shares,
-            incorporated under the Companies Act 2019 (Act 992) of the Republic
-            of Ghana. Throughout this website, &ldquo;we,&rdquo; &ldquo;Bridge
-            Link,&rdquo; and &ldquo;our&rdquo; refer to Bridge Link Services UG
-            Ltd. This website provides general information about our service
-            portfolios and does not constitute a binding offer or professional
-            advice; specific engagements are governed by separate, signed
-            agreements.
-          </p>
           <div className="mt-6 flex flex-col items-center justify-between gap-4 text-xs text-white/30 sm:flex-row">
             <p>
               &copy; {new Date().getFullYear()} Bridge Link Services UG Ltd. All

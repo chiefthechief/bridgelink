@@ -11,7 +11,7 @@ export const services = [
       "Bridge Link partners with government bodies, institutional investors, and private enterprises to deliver disciplined strategic counsel, regulatory compliance support, and operational restructuring across the sectors that drive national development.",
     highlights: [
       "Strategic advisory and administrative restructuring",
-      "Regulatory compliance management under Act 992",
+      "Regulatory compliance management",
       "Institutional capacity building and governance support",
     ],
     approach: [
@@ -182,7 +182,7 @@ export const testimonials = [
 
 export const insights = [
   {
-    title: "Navigating Business Operating Permits Under Act 992",
+    title: "Navigating Business Operating Permit",
     category: "Regulatory Briefing",
     date: "June 2026",
     readTime: "4 min read",
@@ -324,7 +324,7 @@ export const leadership = [
   {
     name: "Alfred Ofori Acheampong",
     title: "Company Secretary",
-    bio: "Alfred manages corporate governance, statutory compliance, and regulatory filings, ensuring Bridge Link maintains full vetting compliance under the Companies Act 2019 (Act 992).",
+    bio: "Alfred manages corporate governance, statutory compliance, and regulatory filings, ensuring Bridge Link maintains full vetting compliance.",
   },
 ];
 
