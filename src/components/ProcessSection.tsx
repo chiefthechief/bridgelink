@@ -14,15 +14,16 @@ export function ProcessSection() {
               How We Work
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-muted-text">
-              A disciplined, four-stage engagement model designed for
-              institutional accountability at every step.
+              A structured approach designed to ensure every engagement is
+              guided by collaboration, informed analysis, practical solutions,
+              and measurable results.
             </p>
 
             <div className="mt-12">
               {processSteps.map((step, i) => (
                 <div
                   key={step.title}
-                  className={`py-8 ${i < processSteps.length - 1 ? 'border-b border-border' : ''}`}
+                  className={`py-8 ${i < processSteps.length - 1 ? "border-b border-border" : ""}`}
                 >
                   <span className="font-display text-5xl font-light text-gold/30">
                     0{i + 1}
@@ -73,5 +74,5 @@ export function ProcessSection() {
         </div>
       </div>
     </AnimatedSection>
-  )
+  );
 }

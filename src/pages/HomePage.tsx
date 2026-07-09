@@ -7,14 +7,18 @@ import { Testimonials } from "../components/Testimonials";
 import { AboutSection } from "../components/AboutSection";
 import { CTABanner } from "../components/CTABanner";
 import { Contact } from "../components/Contact";
+import { WhyBridgeLinkSection } from "../components/WhyBridgeLinkSection";
 
 export function HomePage() {
   return (
     <main>
       <Hero />
       <ServicesGrid />
+      {/* Why BridgeLink section (request) */}
+      <WhyBridgeLinkSection />
       {/* StatsBand removed per request */}
       <ProcessSection />
+
       <Testimonials />
       <OpportunitiesSection />
       <AboutSection />
