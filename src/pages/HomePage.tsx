@@ -13,6 +13,7 @@ export function HomePage() {
   return (
     <main>
       <Hero />
+      <AboutSection />
       <ServicesGrid />
       {/* Why BridgeLink section (request) */}
       <WhyBridgeLinkSection />
@@ -21,7 +22,6 @@ export function HomePage() {
 
       <Testimonials />
       <OpportunitiesSection />
-      <AboutSection />
       <CTABanner />
       <Contact />
     </main>

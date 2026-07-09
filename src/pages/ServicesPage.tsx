@@ -8,14 +8,14 @@ export function ServicesPage() {
       <PageHeader
         eyebrow="Service Portfolios"
         title="Five statutory service portfolios for sovereign and private enterprise."
-        description="From corporate governance and agricultural venture advisory to real estate, healthcare infrastructure, and logistics — Bridge Link delivers disciplined, multi-sector counsel across West Africa."
+        description="From corporate governance and agricultural venture advisory to real estate, healthcare infrastructure, and logistics — BridgeLink delivers disciplined, multi-sector counsel across West Africa."
       >
         <div className="flex flex-wrap gap-3">
           <Link
             to="/contact"
             className="bg-navy px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-navy/90"
           >
-            Initiate consultation
+            Request a Consultation
           </Link>
           <Link
             to="/process"

@@ -8,7 +8,7 @@ export const services = [
     detailTitle:
       "Strategic advisory and institutional capacity building for sovereign and private enterprise",
     intro:
-      "Bridge Link partners with government bodies, institutional investors, and private enterprises to deliver disciplined strategic counsel, regulatory compliance support, and operational restructuring across the sectors that drive national development.",
+      "BridgeLink partners with government bodies, institutional investors, and private enterprises to deliver disciplined strategic counsel, regulatory compliance support, and operational restructuring across the sectors that drive national development.",
     highlights: [
       "Strategic advisory and administrative restructuring",
       "Regulatory compliance management",
@@ -157,7 +157,7 @@ export const processSteps = [
 export const testimonials = [
   {
     quote:
-      "Bridge Link's diligence on our agricultural value chain restructuring gave our board the confidence to commit capital we'd otherwise have held back.",
+      "BridgeLink's diligence on our agricultural value chain restructuring gave our board the confidence to commit capital we'd otherwise have held back.",
     role: "Director",
     company: "Regional Agribusiness Group",
   },
@@ -323,21 +323,21 @@ export const leadership = [
   {
     name: "Sylvaina Nana Afriyie Gerlich",
     title: "Director",
-    bio: "Sylvaina Nana Afriyie Gerlich brings extensive international experience in organizational leadership, entrepreneurship, community development, and cross-cultural engagement. As the founder of multiple organizations in Ghana and Germany, she has led initiatives focused on business development, education, social impact, and international collaboration. Her broad network across public institutions, private organizations, and civil society strengthens Bridge Link’s commitment to building meaningful partnerships and delivering client-focused advisory services.",
+    bio: "Sylvaina Nana Afriyie Gerlich brings extensive international experience in organizational leadership, entrepreneurship, community development, and cross-cultural engagement. As the founder of multiple organizations in Ghana and Germany, she has led initiatives focused on business development, education, social impact, and international collaboration. Her broad network across public institutions, private organizations, and civil society strengthens BridgeLink’s commitment to building meaningful partnerships and delivering client-focused advisory services.",
   },
 ];
 
 export const contactPoints = [
   {
-    label: "Secure Lines",
+    label: "Phone",
     value: "+233 24 499 4544  |  +233 24 029 8271",
   },
   {
-    label: "Digital Desk",
+    label: "Email",
     value: "bridgelinkservices@gmail.com",
   },
   {
-    label: "Corporate Headquarters",
+    label: "Office Address",
     value:
       "House No. GA-482-7099, Near Brigdina Hostel, Mempeasem, Okumagah Lane, Accra, Greater Accra, Ghana",
   },

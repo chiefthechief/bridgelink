@@ -7,7 +7,7 @@ export function AboutPage() {
   return (
     <>
       <PageHeader
-        eyebrow="About Bridge Link"
+        eyebrow="About BridgeLink"
         title="Strategic advisory services that help businesses, institutions, and investors make confident decisions."
         description="We provide professional advisory and consultancy services to businesses, public institutions, investors, and development organizations. 
         We combine strategic insight, regulatory awareness, and practical expertise to help clients achieve sustainable growth, strengthen governance, and improve operational performance."
@@ -23,7 +23,7 @@ export function AboutPage() {
             to="/contact"
             className="border border-border px-6 py-3 text-sm font-medium text-navy transition-colors hover:border-gold hover:text-gold"
           >
-            Initiate consultation
+            Request a Consultation
           </Link>
         </div>
       </PageHeader>
@@ -35,7 +35,7 @@ export function AboutPage() {
               Who We Are
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-muted-text">
-              Bridge Link Services UG Ltd was established to address a growing
+              BridgeLink Services UG Ltd was established to address a growing
               need for integrated advisory services across sectors that are
               fundamental to economic and institutional development. Rather than
               operating within a single discipline, we bring together expertise
@@ -53,7 +53,7 @@ export function AboutPage() {
               As a Ghanaian company with a regional outlook, we are committed to
               supporting businesses, public institutions, investors, and
               development partners in building resilient organizations and
-              contributing to sustainable economic growth. Bridge Link exists to
+              contributing to sustainable economic growth. BridgeLink exists to
               bridge the gap between opportunity and execution; helping
               organizations transform ambition into sustainable, measurable
               results.
@@ -112,11 +112,10 @@ export function AboutPage() {
               Executive Leadership
             </h2>
             <p className="mt-4 text-base leading-relaxed text-muted-text">
-              Bridge Link is committed to transparency, accountability, and
-              sound corporate governance. The company maintains independent
-              financial oversight through external auditors and operates in
-              accordance with applicable legal and regulatory requirements in
-              Ghana.
+              BridgeLink is committed to transparency, accountability, and sound
+              corporate governance. The company maintains independent financial
+              oversight through external auditors and operates in accordance
+              with applicable legal and regulatory requirements in Ghana.
             </p>
           </div>
 

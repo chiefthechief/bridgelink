@@ -25,19 +25,21 @@ export function CTABanner() {
         </div>
 
         <h2 className="font-display mt-8 text-4xl font-light leading-tight text-white md:text-5xl lg:text-6xl">
-          Every mandate begins with
-          <br />a confidential conversation.
+          Every successful partnership begins
+          <br />
+          with a conversation.
         </h2>
         <p className="mx-auto mt-6 max-w-lg text-lg leading-relaxed text-white/60">
-          We respond to verified institutional and ministerial enquiries within
-          two business days. Correspondence is routed directly to our governance
-          desk and handled under strict confidentiality.
+          Whether you’re seeking strategic advisory services, exploring
+          investment opportunities, or looking for a trusted partner to support
+          your organization, our team is ready to discuss your objectives and
+          recommend practical solutions tailored to your needs.
         </p>
         <a
           href="/contact"
           className="mt-10 inline-block bg-gold px-8 py-4 text-sm font-medium text-navy transition-colors hover:bg-gold/90"
         >
-          Initiate Consultation
+          Request a Consultation
         </a>
       </div>
     </AnimatedSection>

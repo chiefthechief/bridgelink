@@ -18,11 +18,11 @@ function Logo({ light = false }: { light?: boolean }) {
     <Link to="/" className="flex items-center">
       <img
         src={light ? logoWhite : logoBlue}
-        alt="Bridge Link Services UG Ltd logo"
+        alt="BridgeLink Services UG Ltd logo"
         className="h-8 w-auto"
       />
     </Link>
-  )
+  );
 }
 
 export function Navigation() {

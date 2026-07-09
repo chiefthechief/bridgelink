@@ -40,7 +40,7 @@ export function IndustriesPage() {
       <PageHeader
         eyebrow="Industries We Serve"
         title="Cross-sector advisory for institutional accountability."
-        description="Bridge Link supports enterprises and institutions across West Africa with disciplined governance, regulatory clarity, and bespoke operational structuring."
+        description="BridgeLink supports enterprises and institutions across West Africa with disciplined governance, regulatory clarity, and bespoke operational structuring."
       >
         <div className="flex flex-wrap gap-3">
           <Link
@@ -84,6 +84,6 @@ export function IndustriesPage() {
         </div>
       </section>
     </>
-  )
+  );
 }
 

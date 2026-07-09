@@ -37,7 +37,7 @@ export function ServiceDetailPage() {
             to="/contact"
             className="bg-navy px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-navy/90"
           >
-            Initiate consultation
+            Request a Consultation
           </Link>
           <Link
             to="/services"

@@ -7,7 +7,7 @@ export function CareersPage() {
   return (
     <>
       <PageHeader
-        eyebrow="Careers at Bridge Link"
+        eyebrow="Careers at BridgeLink"
         title="Mandates that touch real institutions, not theoretical case studies."
         description="We recruit selectively for advisors and operators who hold themselves to sovereign-grade standards of rigor and discretion. We also connect professionals with partner companies in Ghana and abroad through structured contract agreements."
       >
@@ -22,7 +22,7 @@ export function CareersPage() {
             to="/about"
             className="border border-border px-6 py-3 text-sm font-medium text-navy transition-colors hover:border-gold hover:text-gold"
           >
-            Learn about Bridge Link
+            Learn about BridgeLink
           </Link>
         </div>
       </PageHeader>
@@ -30,12 +30,12 @@ export function CareersPage() {
       <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-24">
         <div className="max-w-2xl">
           <h2 className="font-display text-3xl font-light text-navy">
-            Open Positions at Bridge Link
+            Open Positions at BridgeLink
           </h2>
           <p className="mt-4 text-base leading-relaxed text-muted-text">
             Roles span our five statutory portfolios and our internal governance
-            functions. A short, structured process: review, interview, reference,
-            offer.
+            functions. A short, structured process: review, interview,
+            reference, offer.
           </p>
         </div>
 
@@ -68,10 +68,10 @@ export function CareersPage() {
             Partner Company Placements
           </h2>
           <p className="mt-4 text-base leading-relaxed text-muted-text">
-            Through contract agreements with companies in Ghana and abroad, Bridge
-            Link facilitates job placements for qualified professionals. These
-            roles are offered by our partner organizations and managed through
-            structured placement contracts.
+            Through contract agreements with companies in Ghana and abroad,
+            Bridge Link facilitates job placements for qualified professionals.
+            These roles are offered by our partner organizations and managed
+            through structured placement contracts.
           </p>
         </div>
 
@@ -121,5 +121,5 @@ export function CareersPage() {
         </p>
       </section>
     </>
-  )
+  );
 }

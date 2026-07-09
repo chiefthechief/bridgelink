@@ -43,7 +43,6 @@ export function ServicesGrid() {
     <AnimatedSection id="services" className="bg-white py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="max-w-2xl">
-          <SectionLabel>Our Mandate</SectionLabel>
           <h2 className="font-display mt-4 text-4xl font-light leading-tight text-navy md:text-5xl">
             Our Advisory Services
           </h2>

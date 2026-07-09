@@ -21,7 +21,11 @@ const companyLinks = [
 function FooterLogo() {
   return (
     <a href="/" className="flex items-center">
-      <img src={logoWhite} alt="Bridge Link Services UG Ltd logo" className="h-8 w-auto" />
+      <img
+        src={logoWhite}
+        alt="BridgeLink Services UG Ltd logo"
+        className="h-8 w-auto"
+      />
     </a>
   );
 }
@@ -34,14 +38,15 @@ export function Footer() {
           <div className="lg:col-span-1">
             <FooterLogo />
             <p className="mt-4 text-sm leading-relaxed text-white/50">
-              Elite multi-sector consultancy and bespoke operational infrastructure
-              engineered for sovereign and private enterprises across West Africa.
+              Elite multi-sector consultancy and bespoke operational
+              infrastructure engineered for sovereign and private enterprises
+              across West Africa.
             </p>
             <a
               href="/contact"
               className="mt-6 inline-block bg-gold px-5 py-2.5 text-sm font-medium text-navy transition-colors hover:bg-gold/90"
             >
-              Initiate Consultation
+              Request a Consultation
             </a>
           </div>
 
@@ -106,7 +111,7 @@ export function Footer() {
         <div className="mx-auto max-w-7xl px-6 py-8 lg:px-8">
           <div className="mt-6 flex flex-col items-center justify-between gap-4 text-xs text-white/30 sm:flex-row">
             <p>
-              &copy; {new Date().getFullYear()} Bridge Link Services UG Ltd. All
+              &copy; {new Date().getFullYear()} BridgeLink Services UG Ltd. All
               rights reserved. Republic of Ghana.
             </p>
             <div className="flex gap-4">

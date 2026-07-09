@@ -8,7 +8,7 @@ export function InsightsPage() {
       <PageHeader
         eyebrow="Perspectives"
         title="Insights and briefings for institutional decision-makers."
-        description="Regulatory updates, sector outlooks, and governance notes from the Bridge Link advisory team — practical counsel for enterprises operating across Ghana and West Africa."
+        description="Regulatory updates, sector outlooks, and governance notes from the BridgeLink advisory team — practical counsel for enterprises operating across Ghana and West Africa."
       >
         <Link
           to="/contact"
@@ -48,5 +48,5 @@ export function InsightsPage() {
         </div>
       </section>
     </>
-  )
+  );
 }

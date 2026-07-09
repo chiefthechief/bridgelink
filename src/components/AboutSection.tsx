@@ -17,7 +17,7 @@ export function AboutSection() {
             <div className="aspect-square overflow-hidden">
               <img
                 src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&h=800&fit=crop&auto=format"
-                alt="Bridge Link advisory team"
+                alt="BridgeLink advisory team"
                 className="h-full w-full object-cover"
               />
             </div>
@@ -37,7 +37,7 @@ export function AboutSection() {
               institutions, and investors make confident decisions.
             </h2>
             <p className="mt-6 text-lg leading-relaxed text-muted-text">
-              Bridge Link partners with businesses, institutions, and investors
+              BridgeLink partners with businesses, institutions, and investors
               to deliver expert advisory services in business strategy,
               agribusiness, healthcare, education, real estate, and
               transportation. We provide practical, compliant, and

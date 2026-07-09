@@ -26,8 +26,11 @@ export function Hero() {
             </h1>
             <div className="mt-6 max-w-xl space-y-3 text-xl leading-relaxed text-white/80">
               <p>
-                Bridge Link partners with businesses, institutions, and investors to deliver expert advisory services in business strategy, agribusiness, healthcare, education, real estate, and transportation.
-                We provide practical, compliant, and results-driven solutions that help organizations navigate
+                BridgeLink partners with businesses, institutions, and investors
+                to deliver expert advisory services in business strategy,
+                agribusiness, healthcare, education, real estate, and
+                transportation. We provide practical, compliant, and
+                results-driven solutions that help organizations navigate
                 complex challenges and achieve sustainable growth.
               </p>
             </div>

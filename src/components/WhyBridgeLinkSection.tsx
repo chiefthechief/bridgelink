@@ -42,16 +42,19 @@ const pillars = [
 
 export function WhyBridgeLinkSection() {
   return (
-    <AnimatedSection id="why-bridgelink" className="bg-white py-24 lg:py-32 mt-[-8rem]">
+    <AnimatedSection
+      id="why-bridgelink"
+      className="bg-white py-24 lg:py-32 mt-[-8rem]"
+    >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="font-display text-4xl font-light tracking-tight text-gold md:text-5xl">
-            Why Bridge Link
+            Why BridgeLink
           </h2>
           <p className="mt-2 text-lg leading-relaxed text-muted-text">
             “We understand that choosing an advisory partner is about more than
             expertise; it’s about trust, collaboration, and confidence. At
-            Bridge Link, we combine multidisciplinary knowledge, ethical
+            BridgeLink, we combine multidisciplinary knowledge, ethical
             leadership, and practical solutions to help our clients achieve
             sustainable success.”
           </p>

@@ -6,19 +6,19 @@ import { contactPoints } from '../data/content'
 const contactDetails = [
   {
     icon: Phone,
-    label: "Secure Lines",
+    label: "Phone",
     value: contactPoints[0].value,
     href: "tel:+233244994544",
   },
   {
     icon: Mail,
-    label: "Digital Desk",
+    label: "Email",
     value: contactPoints[1].value,
     href: `mailto:${contactPoints[1].value}`,
   },
   {
     icon: MapPin,
-    label: "Corporate Headquarters",
+    label: "Office Address",
     value: contactPoints[2].value,
     href: undefined,
   },
@@ -38,17 +38,17 @@ export function Contact() {
         <div className="grid gap-16 lg:grid-cols-2 lg:gap-20">
           <div>
             <h2 className="font-display text-4xl font-light text-navy md:text-5xl">
-              Initiate a Confidential Mandate
+              Let's Start a Conversation
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-muted-text">
-              Correspondence is routed directly to our governance desk and
-              handled under strict confidentiality. We respond to verified
-              institutional and ministerial enquiries within two business days.
+              Whether you’re seeking expert advice or a trusted partner, Bridge
+              Link is ready to help. Every enquiry is treated with
+              professionalism, discretion, and strict confidentiality.
             </p>
 
             <div className="mt-10 space-y-6">
               {contactDetails.map((item) => {
-                const Icon = item.icon
+                const Icon = item.icon;
                 return (
                   <div key={item.label} className="flex items-start gap-4">
                     <span className="flex h-11 w-11 shrink-0 items-center justify-center bg-muted-surface">
@@ -70,7 +70,7 @@ export function Contact() {
                       )}
                     </div>
                   </div>
-                )
+                );
               })}
             </div>
           </div>
@@ -92,7 +92,7 @@ export function Contact() {
                     htmlFor="fullName"
                     className="mb-2 block text-xs uppercase tracking-widest text-muted-text"
                   >
-                    Official Full Name
+                    Full Name
                   </label>
                   <input
                     id="fullName"
@@ -109,7 +109,7 @@ export function Contact() {
                     htmlFor="organization"
                     className="mb-2 block text-xs uppercase tracking-widest text-muted-text"
                   >
-                    Organization / Ministry
+                    Organization / Institution
                   </label>
                   <input
                     id="organization"
@@ -126,7 +126,7 @@ export function Contact() {
                     htmlFor="email"
                     className="mb-2 block text-xs uppercase tracking-widest text-muted-text"
                   >
-                    Secure Routing Email
+                    Email Address
                   </label>
                   <input
                     id="email"
@@ -143,7 +143,7 @@ export function Contact() {
                     htmlFor="message"
                     className="mb-2 block text-xs uppercase tracking-widest text-muted-text"
                   >
-                    Mandate Summary / Institutional Requirements
+                    How Can We Help?
                   </label>
                   <textarea
                     id="message"
@@ -167,5 +167,5 @@ export function Contact() {
         </div>
       </div>
     </AnimatedSection>
-  )
+  );
 }
