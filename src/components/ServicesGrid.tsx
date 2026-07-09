@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { AnimatedSection } from './AnimatedSection'
-import { SectionLabel } from './SectionLabel'
+
 import { useInView } from '../hooks/useInView'
 import { services } from '../data/content'
 
