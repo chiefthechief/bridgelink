@@ -42,16 +42,7 @@ export function ServicesPage() {
               <p className="mt-3 text-base leading-relaxed text-slate-700">
                 {service.description}
               </p>
-              <div className="mt-6 flex flex-wrap gap-2">
-                {service.tags.map((tag) => (
-                  <span
-                    key={tag}
-                    className="border border-border px-3 py-1 text-xs uppercase tracking-[0.2em] text-muted-text"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
+
               <Link
                 to={`/services/${service.slug}`}
                 className="mt-6 inline-flex text-sm font-medium text-gold transition-colors hover:text-navy"
@@ -63,5 +54,5 @@ export function ServicesPage() {
         </div>
       </section>
     </>
-  )
+  );
 }

@@ -18,17 +18,17 @@ export function Hero() {
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <div className="flex flex-col items-start lg:col-span-2 lg:items-center">
             <h1 className="font-display mt-6 w-full text-center text-5xl font-light leading-[1.1] text-white md:text-6xl lg:text-7xl mx-auto">
-              Bridging Capital,
+              Strategic Advisory Solutions
               <br />
-              Governance, and
+              for Businesses, Institutions and
               <br />
-              <span className="gold-emphasis">Global Enterprise.</span>
+              <span className="gold-emphasis"> Sustainable Growth.</span>
             </h1>
             <div className="mt-6 max-w-xl space-y-3 text-xl leading-relaxed text-white/80">
               <p>
-                Elite multi-sector consultancy and bespoke operational
-                infrastructure engineered for sovereign and private enterprises
-                across West Africa.
+                Bridge Link partners with businesses, institutions, and investors to deliver expert advisory services in business strategy, agribusiness, healthcare, education, real estate, and transportation.
+                We provide practical, compliant, and results-driven solutions that help organizations navigate
+                complex challenges and achieve sustainable growth..
               </p>
             </div>
             <div className="mt-10 flex w-full flex-wrap gap-4 lg:justify-center">
@@ -36,13 +36,13 @@ export function Hero() {
                 href="/contact"
                 className="bg-gold px-7 py-3.5 text-sm font-medium text-navy transition-colors hover:bg-gold/90"
               >
-                Initiate Consultation
+                Request a Consultation
               </a>
               <a
                 href="/services"
                 className="border border-white/30 px-7 py-3.5 text-sm font-medium text-white transition-colors hover:border-white/60 hover:bg-white/5"
               >
-                Explore Service Portfolios
+                Explore our Services
               </a>
             </div>
           </div>

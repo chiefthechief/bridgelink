@@ -60,16 +60,6 @@ export function ServiceDetailPage() {
             <p className="mt-4 text-base leading-relaxed text-slate-700">
               {service.description}
             </p>
-            <div className="mt-6 flex flex-wrap gap-2">
-              {service.tags.map((tag) => (
-                <span
-                  key={tag}
-                  className="border border-border px-3 py-1 text-xs uppercase tracking-[0.2em] text-muted-text"
-                >
-                  {tag}
-                </span>
-              ))}
-            </div>
           </div>
 
           <div className="space-y-6">

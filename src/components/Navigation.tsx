@@ -6,11 +6,10 @@ import logoWhite from '../assets/logo-white.jpeg'
 import { useScrollY } from '../hooks/useScrollY'
 
 const navLinks = [
-  { label: "About", href: "/about" },
-  { label: "Portfolios", href: "/services" },
-  { label: "Approach", href: "/process" },
+  { label: "About Us", href: "/about" },
+  { label: "Services", href: "/services" },
+  { label: "Industries", href: "/industries" },
   { label: "Insights", href: "/insights" },
-  { label: "Careers", href: "/careers" },
   { label: "Contact", href: "/contact" },
 ];
 
@@ -46,17 +45,17 @@ export function Navigation() {
 
         <ul className="hidden items-center gap-8 lg:flex">
           {navLinks.map((link) => {
-            const isActive = location.pathname === link.href
+            const isActive = location.pathname === link.href;
             return (
               <li key={link.href}>
                 <Link
                   to={link.href}
-                  className={`text-sm font-medium transition-colors hover:text-gold ${isOpaque ? 'text-navy' : 'text-white/80'} ${isActive ? 'text-gold' : ''}`}
+                  className={`text-sm font-medium transition-colors hover:text-gold ${isOpaque ? "text-navy" : "text-white/80"} ${isActive ? "text-gold" : ""}`}
                 >
                   {link.label}
                 </Link>
               </li>
-            )
+            );
           })}
         </ul>
 
@@ -65,19 +64,19 @@ export function Navigation() {
             to="/contact"
             className={`px-5 py-2.5 text-sm font-medium transition-colors ${
               scrolled
-                ? 'bg-navy text-white hover:bg-navy/90'
-                : 'bg-white text-navy hover:bg-white/90'
+                ? "bg-navy text-white hover:bg-navy/90"
+                : "bg-white text-navy hover:bg-white/90"
             }`}
           >
-            Initiate Consultation
+            Request a Consultation
           </Link>
         </div>
 
         <button
           type="button"
-          className={`lg:hidden ${isOpaque ? 'text-navy' : 'text-white'}`}
+          className={`lg:hidden ${isOpaque ? "text-navy" : "text-white"}`}
           onClick={() => setMobileOpen(!mobileOpen)}
-          aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
+          aria-label={mobileOpen ? "Close menu" : "Open menu"}
         >
           {mobileOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
@@ -90,7 +89,7 @@ export function Navigation() {
               <li key={link.href}>
                 <Link
                   to={link.href}
-                  className={`block text-sm font-medium ${location.pathname === link.href ? 'text-gold' : 'text-navy'} hover:text-gold`}
+                  className={`block text-sm font-medium ${location.pathname === link.href ? "text-gold" : "text-navy"} hover:text-gold`}
                   onClick={() => setMobileOpen(false)}
                 >
                   {link.label}
@@ -100,22 +99,22 @@ export function Navigation() {
           </ul>
           <div className="mt-6 flex flex-col gap-3 border-t border-border pt-6">
             <Link
-              to="/contact"
+              to="/services"
               className="text-sm font-medium text-muted-text hover:text-gold"
               onClick={() => setMobileOpen(false)}
             >
-              Contact
+              Explore our Services
             </Link>
             <Link
               to="/contact"
               className="bg-navy px-5 py-2.5 text-center text-sm font-medium text-white"
               onClick={() => setMobileOpen(false)}
             >
-              Initiate Consultation
+              Request a Consultation
             </Link>
           </div>
         </div>
       )}
     </header>
-  )
+  );
 }

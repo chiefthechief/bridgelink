@@ -28,16 +28,6 @@ function ServiceCard({
       <p className="mt-3 text-lg leading-relaxed text-muted-text">
         {service.description}
       </p>
-      <div className="mt-5 flex flex-wrap gap-2">
-        {service.tags.map((tag) => (
-          <span
-            key={tag}
-            className="border border-border px-3 py-1 text-xs uppercase tracking-wider text-muted-text transition-colors group-hover:border-gold/40 group-hover:bg-gold/5 group-hover:text-navy"
-          >
-            {tag}
-          </span>
-        ))}
-      </div>
       <Link
         to={`/services/${service.slug}`}
         className="mt-6 inline-flex text-sm font-medium text-gold transition-colors group-hover:text-navy"
@@ -55,8 +45,7 @@ export function ServicesGrid() {
         <div className="max-w-2xl">
           <SectionLabel>Our Mandate</SectionLabel>
           <h2 className="font-display mt-4 text-4xl font-light leading-tight text-navy md:text-5xl">
-            Five Statutory Service{" "}
-            <span className="gold-emphasis">Portfolios</span>
+            Our Advisory Services
           </h2>
         </div>
 

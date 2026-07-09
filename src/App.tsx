@@ -9,6 +9,8 @@ import { CareersPage } from './pages/CareersPage'
 import { InsightsPage } from './pages/InsightsPage'
 import { AboutPage } from './pages/AboutPage'
 import { ContactPage } from './pages/ContactPage'
+import { IndustriesPage } from "./pages/IndustriesPage";
+
 
 function App() {
   return (
@@ -24,10 +26,11 @@ function App() {
           <Route path="/insights" element={<InsightsPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/industries" element={<IndustriesPage />} />
         </Routes>
       </PageShell>
     </BrowserRouter>
-  )
+  );
 }
 
 export default App

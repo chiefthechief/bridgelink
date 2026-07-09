@@ -8,8 +8,9 @@ export function AboutPage() {
     <>
       <PageHeader
         eyebrow="About Bridge Link"
-        title="A single point of trust for multi-sector enterprise across West Africa."
-        description="We advise government bodies, institutional partners, and private investors with disciplined governance, full regulatory transparency, and evidence-led counsel."
+        title="Strategic advisory services that help businesses, institutions, and investors make confident decisions."
+        description="We provide professional advisory and consultancy services to businesses, public institutions, investors, and development organizations. 
+        We combine strategic insight, regulatory awareness, and practical expertise to help clients achieve sustainable growth, strengthen governance, and improve operational performance."
       >
         <div className="flex flex-wrap gap-3">
           <Link
@@ -34,40 +35,60 @@ export function AboutPage() {
               Who We Are
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-muted-text">
-              Bridge Link Services UG Ltd was founded on a simple premise: that
-              government bodies, institutional partners, and private investors
-              deserve a single, accountable advisory relationship across the
-              sectors that matter most to national development — corporate
-              governance, agriculture, healthcare, education, real estate, and
-              logistics.
+              Bridge Link Services UG Ltd was established to address a growing
+              need for integrated advisory services across sectors that are
+              fundamental to economic and institutional development. Rather than
+              operating within a single discipline, we bring together expertise
+              across business advisory, agribusiness, healthcare, education,
+              real estate, and transportation to help clients make informed
+              decisions and execute sustainable strategies. We believe that
+              organizations achieve better outcomes when strategic planning,
+              regulatory compliance, operational efficiency, and long-term
+              development are considered together. Our approach combines
+              professional integrity, practical insight, and collaborative
+              partnership to deliver solutions tailored to each client’s
+              objectives.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-muted-text">
-              Since incorporation, we have
-              built our practice on disciplined governance, full regulatory
-              transparency, and a quiet preference for substance over
-              self-promotion.
+              As a Ghanaian company with a regional outlook, we are committed to
+              supporting businesses, public institutions, investors, and
+              development partners in building resilient organizations and
+              contributing to sustainable economic growth. Bridge Link exists to
+              bridge the gap between opportunity and execution; helping
+              organizations transform ambition into sustainable, measurable
+              results.
             </p>
 
             <div className="mt-8 grid gap-6 sm:grid-cols-2">
               <div className="border border-border bg-[#f8f9fc] p-6">
-                <h3 className="font-display text-xl font-light text-navy">Our Mission</h3>
+                <h3 className="font-display text-xl font-light text-navy">
+                  Our Mission
+                </h3>
                 <p className="mt-2 text-base leading-relaxed text-slate-700">
-                  To engineer the operational infrastructure that lets sovereign
-                  and private capital move with confidence across West Africa.
+                  To provide trusted advisory and consultancy services that
+                  enable businesses, institutions, and public-sector
+                  organizations to improve performance, strengthen governance,
+                  and achieve sustainable growth through practical, ethical, and
+                  evidence-based solutions.
                 </p>
               </div>
               <div className="border border-border bg-[#f8f9fc] p-6">
-                <h3 className="font-display text-xl font-light text-navy">Our Vision</h3>
+                <h3 className="font-display text-xl font-light text-navy">
+                  Our Vision
+                </h3>
                 <p className="mt-2 text-base leading-relaxed text-slate-700">
-                  To be the region&apos;s most trusted multi-sector advisory,
-                  known equally to ministries and institutional investors.
+                  To become one of West Africa’s most trusted multidisciplinary
+                  advisory firms, recognized for professional excellence,
+                  integrity, innovation, and lasting client impact.
                 </p>
               </div>
             </div>
           </div>
 
           <div className="space-y-4">
-            <h3 className="font-display text-2xl font-light text-navy">Our Values</h3>
+            <h3 className="font-display text-2xl font-light text-navy">
+              Our Values
+            </h3>
             {values.map((value) => (
               <div
                 key={value.title}
@@ -86,12 +107,18 @@ export function AboutPage() {
 
         <div id="governance" className="mt-16 border-t border-border pt-16">
           <div className="max-w-2xl">
-            <SectionLabel>Governance</SectionLabel>
+            <SectionLabel>Leadership & Governance</SectionLabel>
             <h2 className="font-display mt-4 text-4xl font-light text-navy md:text-5xl">
               Executive Leadership
             </h2>
             <p className="mt-4 text-base leading-relaxed text-muted-text">
-              Independent auditors: Karts Consult (Verified Profile)
+              Bridge Link is led by professionals that combine decades of
+              practical business experience with international expertise in
+              organizational development, entrepreneurship, investment, and
+              community engagement. Together, the leadership team provides
+              strategic direction while upholding the highest standards of
+              professionalism, integrity, and accountability across every client
+              engagement
             </p>
           </div>
 

@@ -32,9 +32,9 @@ export function AboutSection() {
           <div>
             <SectionLabel>Who We Are</SectionLabel>
             <h2 className="font-display mt-4 text-4xl font-light leading-tight text-navy md:text-5xl">
-              A Single Point of Trust
+              Strategic advisory services that help businesses,
               <br />
-              for Multi-Sector Enterprise
+              institutions, and investors make confident decisions.
             </h2>
             <p className="mt-6 text-lg leading-relaxed text-muted-text">
               Bridge Link Services UG Ltd was founded on a simple premise: that
@@ -45,10 +45,9 @@ export function AboutSection() {
               logistics.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-muted-text">
-              Since incorporation, we have
-              built our practice on disciplined governance, full regulatory
-              transparency, and a quiet preference for substance over
-              self-promotion.
+              Since incorporation, we have built our practice on disciplined
+              governance, full regulatory transparency, and a quiet preference
+              for substance over self-promotion.
             </p>
 
             <div className="mt-10 grid gap-4 sm:grid-cols-2">

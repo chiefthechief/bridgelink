@@ -1,10 +1,10 @@
 export const services = [
   {
     number: "01",
-    title: "Corporate & Business Consultancy",
-    slug: "corporate-business-consultancy",
+    title: "Business Advisory",
+    slug: "business-advisory",
     description:
-      "High-level strategic advisory, administrative restructuring, regulatory compliance management, and institutional capacity building for enterprises across West Africa.",
+      "Helping organizations improve performance through strategic planning, governance, regulatory compliance, and organizational development.High-level strategic advisory, administrative restructuring, regulatory compliance management, and institutional capacity building for enterprises across West Africa.",
     detailTitle:
       "Strategic advisory and institutional capacity building for sovereign and private enterprise",
     intro:
@@ -24,14 +24,13 @@ export const services = [
       "Improved regulatory compliance and audit readiness",
       "Stronger capacity to attract and retain institutional capital",
     ],
-    tags: ["Strategy", "Compliance", "Governance"],
   },
   {
     number: "02",
-    title: "Agricultural Venture Advisory",
-    slug: "agricultural-venture-advisory",
+    title: "Agribusiness Advisory",
+    slug: "agribusiness-advisory",
     description:
-      "Large-scale agricultural value chain optimization, investment modeling, and modern agritech infrastructure management for agribusiness across Ghana and West Africa.",
+      "Supporting agricultural enterprises and investors with sustainable agribusiness planning, investment advisory, and value chain development.",
     detailTitle:
       "Value chain optimization and agritech investment advisory for West African agribusiness",
     intro:
@@ -51,14 +50,13 @@ export const services = [
       "Clearer investment models for institutional partners",
       "Faster path from planning to productive deployment of capital",
     ],
-    tags: ["Agribusiness", "Agritech", "Investment"],
   },
   {
     number: "03",
-    title: "Medical & Educational Infrastructure",
-    slug: "medical-educational-infrastructure",
+    title: "Healthcare & Education Advisory",
+    slug: "healthcare-educational-advisory",
     description:
-      "Advisory systems for state-of-the-art healthcare facilities, academic institutions, procurement networks, and operational scaling across Ghana and the wider region.",
+      "Helping healthcare and educational institutions strengthen operations, infrastructure planning, governance, and long-term sustainability.",
     detailTitle:
       "Infrastructure advisory for healthcare and educational institutions",
     intro:
@@ -78,14 +76,13 @@ export const services = [
       "More efficient procurement and operational structures",
       "Institutions better positioned for long-term growth",
     ],
-    tags: ["Healthcare", "Education", "Infrastructure"],
   },
   {
     number: "04",
-    title: "Premium Real Estate Advisory",
-    slug: "premium-real-estate-advisory",
+    title: "Real Estate Advisory",
+    slug: "real-estate-advisory",
     description:
-      "Asset valuation, strategic property development, high-end commercial real estate syndication, and luxury estate portfolio oversight across Ghana and West Africa.",
+      "Providing advisory services that support informed property investment, project planning, and real estate development.",
     detailTitle:
       "Strategic real estate advisory for commercial and luxury property portfolios",
     intro:
@@ -105,14 +102,13 @@ export const services = [
       "Stronger syndication and development structures",
       "Better long-term portfolio performance and accountability",
     ],
-    tags: ["Real Estate", "Valuation", "Development"],
   },
   {
     number: "05",
-    title: "Logistics & Transportation Systems",
-    slug: "logistics-transportation-systems",
+    title: "Transportation Solutions",
+    slug: "transportation-solutions",
     description:
-      "Enterprise fleet management, global supply chain tracking, and national/regional distribution network engineering for businesses operating across Ghana and West Africa.",
+      "Providing dependable transportation and logistics support for businesses, institutions, and projects.",
     detailTitle:
       "Logistics and distribution network engineering for regional enterprise",
     intro:
@@ -132,7 +128,6 @@ export const services = [
       "Improved supply chain visibility and accountability",
       "Scalable logistics infrastructure for regional growth",
     ],
-    tags: ["Logistics", "Fleet", "Supply Chain"],
   },
 ];
 
@@ -294,19 +289,28 @@ export const partnerOpportunities = [
 export const values = [
   {
     title: "Integrity",
-    description: "Verifiable compliance, always.",
+    description:
+      "We uphold the highest standards of ethics, accountability, and transparency in every engagement.",
   },
   {
-    title: "Discretion",
-    description: "Sovereign-grade confidentiality.",
+    title: "Professional Excellence",
+    description:
+      "We deliver evidence-based advice backed by rigorous analysis and industry best practices.",
   },
   {
-    title: "Rigor",
-    description: "Audited, evidence-led advice.",
+    title: "Collaboration",
+    description:
+      "We work closely with clients to develop practical solutions aligned with their goals.",
   },
   {
-    title: "Continuity",
-    description: "Long-horizon partnership.",
+    title: "Innovation",
+    description:
+      "We embrace new ideas and adaptive thinking to solve complex challenges.",
+  },
+  {
+    title: "Confidentiality",
+    description:
+      "We safeguard client information and conduct every engagement with discretion and professionalism.",
   },
 ];
 
@@ -314,17 +318,12 @@ export const leadership = [
   {
     name: "Richard Owusu Berko",
     title: "Director",
-    bio: "Richard leads Bridge Link's corporate and business consultancy practice, advising government bodies and private enterprises on strategic restructuring, regulatory compliance, and institutional capacity building across West Africa.",
+    bio: "Richard provides strategic leadership for the company’s operations, business development, and long-term growth. With more than two decades of experience in investment operations and business management, he brings practical insight into organizational leadership, strategic planning, and operational excellence. His leadership is guided by integrity, accountability, and a commitment to delivering sustainable value for clients across multiple sectors.",
   },
   {
     name: "Sylvaina Nana Afriyie Gerlich",
     title: "Director",
-    bio: "Sylvaina oversees the firm's multi-sector advisory portfolios, bringing disciplined governance and operational expertise to engagements spanning agriculture, healthcare, real estate, and logistics.",
-  },
-  {
-    name: "Alfred Ofori Acheampong",
-    title: "Company Secretary",
-    bio: "Alfred manages corporate governance, statutory compliance, and regulatory filings, ensuring Bridge Link maintains full vetting compliance.",
+    bio: "Sylvaina Nana Afriyie Gerlich brings extensive international experience in organizational leadership, entrepreneurship, community development, and cross-cultural engagement. As the founder of multiple organizations in Ghana and Germany, she has led initiatives focused on business development, education, social impact, and international collaboration. Her broad network across public institutions, private organizations, and civil society strengthens Bridge Link’s commitment to building meaningful partnerships and delivering client-focused advisory services.",
   },
 ];
 
