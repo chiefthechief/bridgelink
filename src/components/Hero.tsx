@@ -25,7 +25,7 @@ export function Hero() {
               <span className="gold-emphasis"> Sustainable Growth.</span>
             </h1>
             <div className="mt-6 max-w-xl space-y-3 text-xl leading-relaxed text-white/80">
-              <p>
+              <p className="text-center">
                 BridgeLink partners with businesses, institutions, and investors
                 to deliver expert advisory services in business strategy,
                 agribusiness, healthcare, education, real estate, and
