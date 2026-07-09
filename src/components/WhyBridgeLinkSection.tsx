@@ -42,18 +42,24 @@ const pillars = [
 
 export function WhyBridgeLinkSection() {
   return (
-    <AnimatedSection id="why-bridgelink" className="bg-white py-24 lg:py-32">
+    <AnimatedSection id="why-bridgelink" className="bg-white py-24 lg:py-32 mt-[-8rem]">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
-          <p className="section-label">Why Bridge Link</p>
-          <p className="mt-5 text-lg leading-relaxed text-muted-text">
-            “We understand that choosing an advisory partner is about more than expertise; it’s about trust, collaboration, and confidence. At Bridge Link, we combine multidisciplinary knowledge, ethical leadership, and practical solutions to help our clients achieve sustainable success.”
+          <h2 className="font-display text-4xl font-light tracking-tight text-gold md:text-5xl">
+            Why Bridge Link
+          </h2>
+          <p className="mt-2 text-lg leading-relaxed text-muted-text">
+            “We understand that choosing an advisory partner is about more than
+            expertise; it’s about trust, collaboration, and confidence. At
+            Bridge Link, we combine multidisciplinary knowledge, ethical
+            leadership, and practical solutions to help our clients achieve
+            sustainable success.”
           </p>
         </div>
 
         <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {pillars.map((pillar) => {
-            const Icon = pillar.Icon
+            const Icon = pillar.Icon;
             return (
               <div
                 key={pillar.title}
@@ -71,11 +77,11 @@ export function WhyBridgeLinkSection() {
                   {pillar.description}
                 </p>
               </div>
-            )
+            );
           })}
         </div>
       </div>
     </AnimatedSection>
-  )
+  );
 }
 

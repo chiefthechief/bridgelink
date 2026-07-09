@@ -133,24 +133,24 @@ export const services = [
 
 export const processSteps = [
   {
-    title: "Discovery & Diligence",
+    title: "Discover",
     description:
-      "We assess mandate, regulatory context, and stakeholder objectives before a single recommendation is made.",
+      "We begin by understanding your objectives, challenges, operating environment, and priorities. Through consultation and information gathering, we establish a clear understanding of your needs before recommending any course of action.",
   },
   {
-    title: "Structuring & Strategy",
+    title: "Assess & Plan",
     description:
-      "A bespoke operational or investment structure is designed, modeled, and stress-tested against compliance requirements.",
+      "We evaluate available information, identify opportunities and potential risks, and develop practical strategies tailored to your objectives and operating environment.",
   },
   {
-    title: "Implementation",
+    title: "Deliver",
     description:
-      "Our advisory team executes alongside yours, coordinating procurement, regulatory filings, and partner institutions.",
+      "We deliver our advisory services through clear communication, professional collaboration, and practical recommendations. Where required, we support implementation and project coordination to achieve successful outcomes.",
   },
   {
-    title: "Oversight & Continuity",
+    title: "Support & Grow",
     description:
-      "Ongoing audit, reporting, and advisory continuity ensure the engagement holds up to long-term institutional scrutiny.",
+      "We build long-term relationships with our clients by providing ongoing guidance, monitoring progress where applicable, and supporting continuous improvement beyond project completion.",
   },
 ];
 

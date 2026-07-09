@@ -28,7 +28,7 @@ export function Hero() {
               <p>
                 Bridge Link partners with businesses, institutions, and investors to deliver expert advisory services in business strategy, agribusiness, healthcare, education, real estate, and transportation.
                 We provide practical, compliant, and results-driven solutions that help organizations navigate
-                complex challenges and achieve sustainable growth..
+                complex challenges and achieve sustainable growth.
               </p>
             </div>
             <div className="mt-10 flex w-full flex-wrap gap-4 lg:justify-center">

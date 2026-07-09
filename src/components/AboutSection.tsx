@@ -37,12 +37,12 @@ export function AboutSection() {
               institutions, and investors make confident decisions.
             </h2>
             <p className="mt-6 text-lg leading-relaxed text-muted-text">
-              Bridge Link Services UG Ltd was founded on a simple premise: that
-              government bodies, institutional partners, and private investors
-              deserve a single, accountable advisory relationship across the
-              sectors that matter most to national development — corporate
-              governance, agriculture, healthcare, education, real estate, and
-              logistics.
+              Bridge Link partners with businesses, institutions, and investors
+              to deliver expert advisory services in business strategy,
+              agribusiness, healthcare, education, real estate, and
+              transportation. We provide practical, compliant, and
+              results-driven solutions that help organizations navigate complex
+              challenges and achieve sustainable growth.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-muted-text">
               Since incorporation, we have built our practice on disciplined

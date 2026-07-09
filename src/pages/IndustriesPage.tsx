@@ -76,7 +76,7 @@ export function IndustriesPage() {
                   to="/contact"
                   className="inline-flex text-sm font-medium text-gold transition-colors hover:text-navy"
                 >
-                  Discuss this industry →
+                  Learn More→
                 </Link>
               </div>
             </article>

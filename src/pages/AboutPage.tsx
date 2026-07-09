@@ -112,13 +112,11 @@ export function AboutPage() {
               Executive Leadership
             </h2>
             <p className="mt-4 text-base leading-relaxed text-muted-text">
-              Bridge Link is led by professionals that combine decades of
-              practical business experience with international expertise in
-              organizational development, entrepreneurship, investment, and
-              community engagement. Together, the leadership team provides
-              strategic direction while upholding the highest standards of
-              professionalism, integrity, and accountability across every client
-              engagement
+              Bridge Link is committed to transparency, accountability, and
+              sound corporate governance. The company maintains independent
+              financial oversight through external auditors and operates in
+              accordance with applicable legal and regulatory requirements in
+              Ghana.
             </p>
           </div>
 
