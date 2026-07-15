@@ -321,8 +321,8 @@ export const leadership = [
     bio: "Richard provides strategic leadership for the company’s operations, business development, and long-term growth. With more than two decades of experience in investment operations and business management, he brings practical insight into organizational leadership, strategic planning, and operational excellence. His leadership is guided by integrity, accountability, and a commitment to delivering sustainable value for clients across multiple sectors.",
   },
   {
-    name: "Sylvaina Nana Afriyie Gerlich",
-    title: "Director",
+    name: "Sylvaina Gerlich",
+    title: "CEO",
     bio: "Sylvaina Nana Afriyie Gerlich brings extensive international experience in organizational leadership, entrepreneurship, community development, and cross-cultural engagement. As the founder of multiple organizations in Ghana and Germany, she has led initiatives focused on business development, education, social impact, and international collaboration. Her broad network across public institutions, private organizations, and civil society strengthens BridgeLink’s commitment to building meaningful partnerships and delivering client-focused advisory services.",
   },
 ];
