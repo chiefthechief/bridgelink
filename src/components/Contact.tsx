@@ -159,7 +159,7 @@ export function Contact() {
                   type="submit"
                   className="w-full bg-navy py-4 text-sm font-medium text-white transition-colors hover:bg-navy/90"
                 >
-                  Submit Secure Enquiry
+                  Send Email
                 </button>
               </form>
             )}

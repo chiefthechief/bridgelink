@@ -75,7 +75,7 @@ export function ContactPage() {
                 type="button"
                 className="bg-gold px-6 py-3 text-sm font-medium text-navy transition-colors hover:bg-gold/90"
               >
-                Submit Secure Enquiry
+                Send Email
               </button>
             </form>
           </div>
