@@ -33,7 +33,7 @@ export function Contact() {
   }
 
   return (
-    <AnimatedSection id="contact" className="bg-white py-24 lg:py-32">
+    <AnimatedSection id="contact" className="bg-white pt-32 pb-24 lg:pb-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="grid gap-16 lg:grid-cols-2 lg:gap-20">
           <div>

@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom'
 import { PageHeader } from '../components/PageHeader'
-import { SectionLabel } from "../components/SectionLabel";
-import { values, leadership } from "../data/content";
+import { SectionLabel } from '../components/SectionLabel'
+import { ProcessSection } from '../components/ProcessSection'
+import { Testimonials } from '../components/Testimonials'
+import { values, leadership } from '../data/content'
 
 export function AboutPage() {
   return (
@@ -28,7 +30,7 @@ export function AboutPage() {
         </div>
       </PageHeader>
 
-      <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-24">
+      <section className="mx-auto max-w-7xl px-6 pb-20 pt-20 lg:px-8 lg:pb-24 lg:pt-24">
         <div className="grid gap-8 lg:grid-cols-[1.2fr_0.8fr]">
           <div className="border border-border bg-white p-8 shadow-sm">
             <h2 className="font-display text-3xl font-light text-navy">
@@ -104,8 +106,12 @@ export function AboutPage() {
             ))}
           </div>
         </div>
+      </section>
 
-        <div id="governance" className="mt-16 border-t border-border pt-16">
+      <ProcessSection />
+
+      <section className="mx-auto max-w-7xl px-6 pb-20 lg:px-8 lg:pb-24">
+        <div id="governance" className="scroll-mt-28 border-t border-border pt-16">
           <div className="max-w-2xl">
             <SectionLabel>Leadership & Governance</SectionLabel>
             <h2 className="font-display mt-4 text-4xl font-light text-navy md:text-5xl">
@@ -139,6 +145,8 @@ export function AboutPage() {
           </div>
         </div>
       </section>
+
+      <Testimonials variant="full" />
     </>
-  );
+  )
 }

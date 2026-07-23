@@ -18,7 +18,7 @@ export function ServicesPage() {
             Request a Consultation
           </Link>
           <Link
-            to="/process"
+            to="/about#how-we-work"
             className="border border-border px-6 py-3 text-sm font-medium text-navy transition-colors hover:border-gold hover:text-gold"
           >
             See our approach

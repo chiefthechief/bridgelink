@@ -11,7 +11,7 @@ const portfolioLinks = [
 
 const companyLinks = [
   { label: "About Us", href: "/about" },
-  { label: "How We Work", href: "/process" },
+  { label: "How We Work", href: "/about#how-we-work" },
   { label: "Leadership", href: "/about#governance" },
   { label: "Insights & Briefings", href: "/insights" },
   { label: "Careers", href: "/careers" },

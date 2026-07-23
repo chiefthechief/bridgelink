@@ -1,4 +1,5 @@
 import { Check } from 'lucide-react'
+import { Link } from 'react-router-dom'
 import { AnimatedSection } from './AnimatedSection'
 import { SectionLabel } from './SectionLabel'
 
@@ -60,6 +61,13 @@ export function AboutSection() {
                 </div>
               ))}
             </div>
+
+            <Link
+              to="/about"
+              className="mt-8 inline-flex text-sm font-medium text-gold transition-colors hover:text-navy"
+            >
+              Learn more about BridgeLink →
+            </Link>
           </div>
         </div>
       </div>

@@ -1,14 +1,13 @@
 import { Link } from 'react-router-dom'
 import { AnimatedSection } from './AnimatedSection'
-
 import { useInView } from '../hooks/useInView'
-import { services } from '../data/content'
+import { serviceTeasers } from '../data/content'
 
-function ServiceCard({
+function TeaserCard({
   service,
   index,
 }: {
-  service: (typeof services)[0]
+  service: (typeof serviceTeasers)[0]
   index: number
 }) {
   const { ref, isInView } = useInView<HTMLDivElement>()
@@ -16,7 +15,7 @@ function ServiceCard({
   return (
     <div
       ref={ref}
-      className={`group bg-white p-8 transition-colors hover:bg-muted-surface/50 md:p-10 fade-in-view ${isInView ? "is-visible" : ""} border border-border/60`}
+      className={`group border border-border/60 bg-white p-8 transition-colors hover:bg-muted-surface/50 md:p-10 fade-in-view ${isInView ? 'is-visible' : ''}`}
       style={{ transitionDelay: `${index * 100}ms` }}
     >
       <span className="font-display text-[3rem] font-light leading-none text-gold/30 transition-colors group-hover:text-gold">
@@ -35,7 +34,7 @@ function ServiceCard({
         Learn more →
       </Link>
     </div>
-  );
+  )
 }
 
 export function ServicesGrid() {
@@ -49,11 +48,20 @@ export function ServicesGrid() {
         </div>
 
         <div className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {services.map((service, i) => (
-            <ServiceCard key={service.number} service={service} index={i} />
+          {serviceTeasers.map((service, i) => (
+            <TeaserCard key={service.number} service={service} index={i} />
           ))}
+        </div>
+
+        <div className="mt-10">
+          <Link
+            to="/services"
+            className="inline-flex text-sm font-medium text-gold transition-colors hover:text-navy"
+          >
+            View all services →
+          </Link>
         </div>
       </div>
     </AnimatedSection>
-  );
+  )
 }

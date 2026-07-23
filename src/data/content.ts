@@ -131,6 +131,44 @@ export const services = [
   },
 ];
 
+export const serviceTeasers = [
+  {
+    number: "01",
+    title: "Business Advisory",
+    slug: "business-advisory",
+    description:
+      "Strategic planning, governance, and regulatory compliance for organizations across sectors.",
+  },
+  {
+    number: "02",
+    title: "Agribusiness Advisory",
+    slug: "agribusiness-advisory",
+    description:
+      "Sustainable planning, investment advisory, and value chain development for agricultural enterprises.",
+  },
+  {
+    number: "03",
+    title: "Healthcare & Education Advisory",
+    slug: "healthcare-educational-advisory",
+    description:
+      "Operational and infrastructure planning for healthcare and educational institutions.",
+  },
+  {
+    number: "04",
+    title: "Real Estate Advisory",
+    slug: "real-estate-advisory",
+    description:
+      "Advisory support for property investment, project planning, and development.",
+  },
+  {
+    number: "05",
+    title: "Transportation Solutions",
+    slug: "transportation-solutions",
+    description:
+      "Dependable transportation and logistics support for businesses, institutions, and projects.",
+  },
+];
+
 export const processSteps = [
   {
     title: "Discover",
@@ -260,30 +298,6 @@ export const partnerOpportunities = [
     description:
       "A commercial real estate developer is recruiting a project supervisor to oversee a mixed-use development, coordinating contractors, timelines, and regulatory inspections.",
   },
-  {
-    title: "Fleet & Distribution Coordinator",
-    company: "West African Logistics Firm",
-    location: "Accra, Ghana",
-    type: "Contract Placement",
-    description:
-      "A regional logistics company needs a coordinator to manage fleet operations, route planning, and cross-border distribution across Ghana and neighbouring markets.",
-  },
-  {
-    title: "Agritech Systems Analyst",
-    company: "Rice Value Chain Consortium",
-    location: "Tamale, Ghana",
-    type: "Contract Placement",
-    description:
-      "An agritech consortium is seeking an analyst to support investment modeling, farm management systems, and value chain reporting for large-scale rice operations in northern Ghana.",
-  },
-  {
-    title: "International Placement — Healthcare Technician",
-    company: "GCC Healthcare Provider",
-    location: "Abroad (via Ghana contract)",
-    type: "International Contract",
-    description:
-      "Through our cross-border placement agreements, a Gulf-based healthcare provider is recruiting qualified technicians from Ghana for structured two-year contracts with full relocation support.",
-  },
 ];
 
 export const values = [
@@ -334,7 +348,7 @@ export const contactPoints = [
   },
   {
     label: "Email",
-    value: "bridgelinkservices@gmail.com",
+    value: "bridgelinkservicesug@gmail.com",
   },
   {
     label: "Office Address",
