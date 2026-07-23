@@ -53,7 +53,7 @@ export function ServicesGrid() {
           ))}
         </div>
 
-        <div className="mt-10">
+        <div className="mt-10 mb-8">
           <Link
             to="/services"
             className="inline-flex text-sm font-medium text-gold transition-colors hover:text-navy"
@@ -63,5 +63,5 @@ export function ServicesGrid() {
         </div>
       </div>
     </AnimatedSection>
-  )
+  );
 }

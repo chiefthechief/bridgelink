@@ -44,14 +44,14 @@ export function WhyBridgeLinkSection() {
   return (
     <AnimatedSection
       id="why-bridgelink"
-      className="bg-white py-24 lg:py-32 mt-[-8rem]"
+      className="bg-navy py-24 lg:py-32 mt-[-8rem]"
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="font-display text-4xl font-light tracking-tight text-gold md:text-5xl">
             Why BridgeLink
           </h2>
-          <p className="mt-2 text-lg leading-relaxed text-muted-text">
+          <p className="mt-2 text-lg leading-relaxed text-white/70">
             “We understand that choosing an advisory partner is about more than
             expertise; it’s about trust, collaboration, and confidence. At
             BridgeLink, we combine multidisciplinary knowledge, ethical
@@ -66,17 +66,17 @@ export function WhyBridgeLinkSection() {
             return (
               <div
                 key={pillar.title}
-                className="rounded-none border border-border bg-[#f7f8fc] p-8 shadow-[0_10px_30px_rgba(25,86,190,0.05)]"
+                className="rounded-none border border-white/10 bg-navy/40 p-8 shadow-[0_10px_30px_rgba(25,86,190,0.05)]"
               >
                 <div className="flex items-center gap-4">
                   <span className="inline-flex h-11 w-11 items-center justify-center bg-gold text-navy">
                     <Icon size={20} />
                   </span>
-                  <h3 className="font-display text-xl font-light text-navy">
+                  <h3 className="font-display text-xl font-light text-white">
                     {pillar.title}
                   </h3>
                 </div>
-                <p className="mt-4 text-base leading-relaxed text-slate-700">
+                <p className="mt-4 text-base leading-relaxed text-white/70">
                   {pillar.description}
                 </p>
               </div>

@@ -17,5 +17,6 @@ export function HomePage() {
       <OpportunitiesSection />
       <CTABanner />
     </main>
-  )
+  );
 }
+
