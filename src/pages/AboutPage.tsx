@@ -146,7 +146,7 @@ export function AboutPage() {
         </div>
       </section>
 
-      <Testimonials variant="full" />
+      <Testimonials variant="teaser" />
     </>
   )
 }

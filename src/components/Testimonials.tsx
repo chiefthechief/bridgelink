@@ -8,7 +8,7 @@ interface TestimonialsProps {
 }
 
 export function Testimonials({ variant = 'full' }: TestimonialsProps) {
-  const isTeaser = variant === 'teaser'
+  const isTeaser = variant === 'full'
   const displayed = isTeaser ? [testimonials[0]] : testimonials
 
   return (
