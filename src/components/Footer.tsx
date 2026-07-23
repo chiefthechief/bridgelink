@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import logoWhite from '../assets/logo-white.jpeg'
 import { contactPoints } from '../data/content'
 
@@ -20,13 +21,13 @@ const companyLinks = [
 
 function FooterLogo() {
   return (
-    <a href="/" className="flex items-center">
+    <Link to="/" className="flex items-center">
       <img
         src={logoWhite}
         alt="BridgeLink Services UG Ltd logo"
         className="h-8 w-auto"
       />
-    </a>
+    </Link>
   );
 }
 
@@ -42,12 +43,12 @@ export function Footer() {
               infrastructure engineered for sovereign and private enterprises
               across West Africa.
             </p>
-            <a
-              href="/contact"
+            <Link
+              to="/contact"
               className="mt-6 inline-block bg-gold px-5 py-2.5 text-sm font-medium text-navy transition-colors hover:bg-gold/90"
             >
               Request a Consultation
-            </a>
+            </Link>
           </div>
 
           <div>
@@ -57,12 +58,12 @@ export function Footer() {
             <ul className="mt-4 space-y-3">
               {portfolioLinks.map((link) => (
                 <li key={link}>
-                  <a
-                    href="/services"
+                  <Link
+                    to="/services"
                     className="text-sm text-white/60 transition-colors hover:text-gold"
                   >
                     {link}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -75,12 +76,12 @@ export function Footer() {
             <ul className="mt-4 space-y-3">
               {companyLinks.map((link) => (
                 <li key={link.label}>
-                  <a
-                    href={link.href}
+                  <Link
+                    to={link.href}
                     className="text-sm text-white/60 transition-colors hover:text-gold"
                   >
                     {link.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -109,19 +110,11 @@ export function Footer() {
 
       <div className="border-t border-white/10">
         <div className="mx-auto max-w-7xl px-6 py-8 lg:px-8">
-          <div className="mt-6 flex flex-col items-center justify-between gap-4 text-xs text-white/30 sm:flex-row">
+          <div className="mt-6 flex flex-col items-center justify-center gap-4 text-xs text-white/30">
             <p>
               &copy; {new Date().getFullYear()} BridgeLink Services UG Ltd. All
               rights reserved. Republic of Ghana.
             </p>
-            <div className="flex gap-4">
-              <a href="/privacy" className="transition-colors hover:text-gold">
-                Privacy Policy
-              </a>
-              <a href="/terms" className="transition-colors hover:text-gold">
-                Terms of Use
-              </a>
-            </div>
           </div>
         </div>
       </div>
